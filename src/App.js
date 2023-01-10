@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
       <>
-        <p>coucou</p>
+        <h1>coucou les gens</h1>
         <Header />
         <Apropos />
         <Portfolio />

@@ -1,7 +1,7 @@
 const Portfolio = () => {
     return(
         <>
-            <p>portfolio</p>
+            <h2>je suis portfolio</h2>
         </>
     )
 }

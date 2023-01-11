@@ -1,6 +1,26 @@
 header{
-    background-color: chartreuse;
+    background-color: #1E2021;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
 }
+
 .logo{
     height: 50px;
+}
+
+.main-nav{
+    display:flex;
+    justify-content:flex-end;
+    text-transform:uppercase;
+    align-items: center;
+}
+
+.nav-li{
+    padding: 0 1em;
+}
+
+.nav-li a {
+    color: #D9D9D9;
 }

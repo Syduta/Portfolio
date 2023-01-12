@@ -1,5 +1,7 @@
+@import "colors.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 header{
-    background-color: #1E2021;
+    background-color: var(--navColor);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,5 +24,36 @@ header{
 }
 
 .nav-li a {
-    color: #D9D9D9;
+    color: var(--navFontColor);
+}
+
+#navbar{
+    position: sticky;
+}
+
+#banner{
+    position: relative;
+
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.banner-content{
+    color: var(--navFontColor);
+    position: absolute;
+    top: 6vh;
+    left: 50vw;
+    transform: translate(-50%);
+    text-align: center;
+    font-family: "Roboto","sans-serif";
+    font-size: larger;
+    text-transform: capitalize;
+    background-color: var(--navColor);
+    opacity: 0.8;
+    width: 66vw;
+    padding: 5px 0;
+    border: solid 2px var(--navFontColor);
+    border-radius: 20px;
 }

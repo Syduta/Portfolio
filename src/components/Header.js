@@ -6,8 +6,9 @@ const fontAwesomeHome = <FontAwesomeIcon icon={faHouse} />;
 const Header = () => {
     return(
         <>
-            <header id={"accueil"}>
-                <nav id={"navbar"}>
+            <div id={"accueil"}></div>
+            <header id={"navbar"}>
+                <nav>
                     <ul className={"main-nav"}>
                         <li className={"nav-li"}><a href={"#"}><img className={"logo"} src={logo} alt={"logo"}/></a></li>
                         <li className={"nav-li"}><a href={"#accueil"}>{fontAwesomeHome}</a></li>

@@ -26,14 +26,14 @@ header{
 .nav-li a {
     color: var(--navFontColor);
 }
-
 #navbar{
     position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 #banner{
     position: relative;
-
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;

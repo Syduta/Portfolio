@@ -1,11 +1,14 @@
 @import "colors.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');/*roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');/*cinzel font*/
+
 header{
     background-color: var(--navColor);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
+    font-family: "Roboto","sans-serif";
 }
 
 .logo{
@@ -21,6 +24,7 @@ header{
 
 .nav-li{
     padding: 0 1em;
+    font-size: larger;
 }
 
 .nav-li a {
@@ -29,7 +33,7 @@ header{
 #navbar{
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 100;
 }
 
 #banner{
@@ -43,15 +47,15 @@ header{
 .banner-content{
     color: var(--navFontColor);
     position: absolute;
-    top: 6vh;
+    top: 4vh;
     left: 50vw;
     transform: translate(-50%);
     text-align: center;
-    font-family: "Roboto","sans-serif";
-    font-size: larger;
+    font-size: 1.4rem;
     text-transform: capitalize;
+    font-family: 'Cinzel', serif;
     background-color: var(--navColor);
-    opacity: 0.8;
+    opacity: 0.9;
     width: 66vw;
     padding: 5px 0;
     border: solid 2px var(--navFontColor);

@@ -12,7 +12,7 @@ const Header = () => {
                     <ul className={"main-nav"}>
                         <li className={"nav-li"}><a href={"#"}><img className={"logo"} src={logo} alt={"logo"}/></a></li>
                         <li className={"nav-li"}><a href={"#accueil"}>{fontAwesomeHome}</a></li>
-                        <li className={"nav-li"}><a href={"#"}>À propos</a></li>
+                        <li className={"nav-li"}><a href={"#apropos"}>À propos</a></li>
                         <li className={"nav-li"}><a href={"#"}>Portfolio</a></li>
                         <li className={"nav-li"}><a href={"#"}>Contact</a></li>
                     </ul>

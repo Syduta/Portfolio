@@ -7,7 +7,7 @@ const fontAwesomeDiscord = <FontAwesomeIcon icon={faDiscord} />
 const Contact = () => {
     return(
         <>
-            <h2>je suis contact</h2>
+            <h3>je suis contact</h3>
             <a>{fontAwesomeLinkedin}</a>
             <a>{fontAwesomeGithub}</a>
             <a>{fontAwesomeDiscord}</a>

@@ -1,0 +1,31 @@
+#apropos{
+    height: 100vh;
+    border: 5px solid chartreuse;
+}
+
+#apropos h3{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 3rem 0 1.4rem 0;
+    font-size: 1.4rem;
+}
+
+.description{
+    padding: 1.4rem;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.competences{
+    border: 2px solid blue;
+}
+.photo{
+    transform: translate(-50%);
+    margin: 0 50vw;
+    height: 25vh;
+    width: 25vw;
+    background-image: url("../img/thi.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

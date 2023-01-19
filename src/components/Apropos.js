@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faSquareJs, faNodeJs, faReact, faPhp, faSymfony, faBootstrap, faSass } from '@fortawesome/free-brands-svg-icons';
 import mysql from "../img/mysql.png";
+import React, { useEffect, useState } from 'react';
+
 
 const fontAwesomeHtml5 = <FontAwesomeIcon icon={faHtml5} color={"#e34f26"}/>;
 const fontAwesomeReact = <FontAwesomeIcon icon={faReact} color={"#00CDF2"} spin/>;
@@ -15,8 +17,22 @@ const logoSql = {
     height: "1em",
     verticalAlign: "-0.125em"
 };
-
 const Apropos = () => {
+    const [offset, setOffset] = React.useState(null);
+    const setScroll = () => {
+        setOffset(window.scrollY);
+    };
+
+    React.useEffect(() => {
+        window.addEventListener("scroll", setScroll);
+        return () => {
+            window.removeEventListener("scroll", setScroll);
+        };
+    }, []);
+    console.log(offset);
+    if(offset >= 704 && offset <= 800){
+        console.log("cool");
+    }
     return(
         <>
             <section id={"apropos"}>
@@ -28,7 +44,7 @@ const Apropos = () => {
                     <p>J'aime autant coder le back que le front. Chaque projet étant différent d'un autre je trouve
                         toujours intéressant d'en découvrir et de résoudre les problématiques. </p>
                 </div>
-                <div className={"photo"}></div>
+                <div className={"photo"} style={{cursor: 'url(Group7.png),auto'}}></div>
                 <div className={"competences"}>
                     <p>Pour le moment mes compétences en développement regroupent :</p>
                     <ul>

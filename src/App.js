@@ -6,14 +6,14 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-      <>
+    <>
         <Header />
         <main>
         <Apropos />
         <Portfolio />
         </main>
         <Contact />
-      </>
+    </>
   );
 }
 

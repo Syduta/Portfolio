@@ -17,7 +17,22 @@ const logoSql = {
     height: "1em",
     verticalAlign: "-0.125em"
 };
+const notFontAwesomeMysql = < img src={mysql} style={logoSql} />
+
+const logos = [
+    fontAwesomeHtml5,
+    fontAwesomeReact,
+    fontAwesomeJs,
+    fontAwesomeNodejs,
+    fontAwesomePhp,
+    fontAwesomeCss3,
+    fontAwesomeSymfony,
+    fontAwesomeBoostrap,
+    fontAwesomeSass,
+    notFontAwesomeMysql
+]
 const Apropos = () => {
+
     const [offset, setOffset] = React.useState(null);
     const setScroll = () => {
         setOffset(window.scrollY);
@@ -33,6 +48,9 @@ const Apropos = () => {
     if(offset >= 704 && offset <= 800){
         console.log("cool");
     }
+
+    const [open, setOpen] = useState(false);
+
     return(
         <>
             <section id={"apropos"}>
@@ -44,22 +62,18 @@ const Apropos = () => {
                     <p>J'aime autant coder le back que le front. Chaque projet étant différent d'un autre je trouve
                         toujours intéressant d'en découvrir et de résoudre les problématiques. </p>
                 </div>
-                <div className={"photo"} style={{cursor: 'url(Group7.png),auto'}}></div>
-                <div className={"competences"}>
-                    <p>Pour le moment mes compétences en développement regroupent :</p>
-                    <ul>
-                        <li>Html <i>{fontAwesomeHtml5}</i></li>
-                        <li>Css <i>{fontAwesomeCss3}</i></li>
-                        <li>Javascript <i>{fontAwesomeJs}</i></li>
-                        <li>React <i>{fontAwesomeReact}</i></li>
-                        <li>Nodejs <i>{fontAwesomeNodejs}</i></li>
-                        <li>Php <i>{fontAwesomePhp}</i></li>
-                        <li>Symfony <i>{fontAwesomeSymfony}</i></li>
-                        <li>Mysql <img src={mysql} style={logoSql}/></li>
-                        <li>Boostrap <i>{fontAwesomeBoostrap}</i></li>
-                        <li>Sass <i>{fontAwesomeSass}</i></li>
-                    </ul>
-                </div>
+                <div className={"photo"} onClick={()=>{setOpen(!open)}}></div>
+                <ul className={`menu-dropdown ${open? "active":"inactive"}`}>
+                    {
+                        logos.map((logo,index)=>(
+                            <div  key={index} style={{transform:`rotate(${(360/logos.length)*index}deg translate(175%)`}}>
+                                <li>
+                                    <i>{logo}</i>
+                                </li>
+                            </div>
+                        ))
+                    }
+                </ul>
             </section>
         </>
     )

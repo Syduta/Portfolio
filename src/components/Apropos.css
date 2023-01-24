@@ -35,21 +35,20 @@
 
 }
 
-
-/*.menu-dropdown li{
+/*.circle-menu li{
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%);
 }*/
 
-.menu-dropdown.active{
+.circle-menu.active{
     opacity: 1;
     visibility: visible;
     transition: 500ms ease-in-out;
 }
 
-.menu-dropdown.inactive{
+.circle-menu.inactive{
     opacity: 0;
     visibility: hidden;
     transition: 500ms ease-in-out;

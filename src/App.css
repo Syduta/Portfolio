@@ -1,6 +1,6 @@
 @import "./components/Header.css";
 @import "./components/Apropos.css";
-
+@import "components/Circular-menu.css";
 *{
   margin: 0;
   padding: 0;

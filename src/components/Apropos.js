@@ -1,5 +1,5 @@
-import CircleMenu from "./Circle-menu";
 import React, { useEffect, useState } from 'react';
+import CircularMenu from "./Circular-menu";
 
 const Apropos = () => {
 
@@ -30,7 +30,7 @@ const Apropos = () => {
                     <p>J'aime autant coder le back que le front. Chaque projet étant différent d'un autre je trouve
                         toujours intéressant d'en découvrir et de résoudre les problématiques. </p>
                 </div>
-                <CircleMenu />
+                <CircularMenu />
             </section>
         </>
     )

@@ -1,7 +1,6 @@
 #apropos{
     height: 100vh;
     border: 5px solid chartreuse;
-    position: relative;
 }
 
 #apropos h3{
@@ -18,38 +17,36 @@
 }
 
 .photo{
-    transform: translate(-50%);
+    position: relative;
     height: 200px;
     width: 200px;
     background-image: url("../img/thi.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 45%;
-    left: 50%;
+    margin: 5vh auto;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.photo:hover{
 
-}
-
-/*.circle-menu li{
+.circle-menu li{
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%);
-}*/
+}
 
 .circle-menu.active{
     opacity: 1;
     visibility: visible;
-    transition: 500ms ease-in-out;
+    transition: 1000ms ease-in-out;
 }
 
 .circle-menu.inactive{
+
     opacity: 0;
     visibility: hidden;
-    transition: 500ms ease-in-out;
+    transition: 1000ms ease-in-out;
 }

@@ -55,16 +55,20 @@ const CircleMenu = () => {
     const [open, setOpen] = useState(false);
     return(
         <>
-            <div className={"photo"} onClick={()=>{setOpen(!open)}}></div>
-            <ul className={`circle-menu ${open? "active":"inactive"}`}>
-                {
-                    technos.map((techno,index)=>(
-                        <li>{techno.nom}
-                            <i key={index}>{techno.logo}</i>
-                        </li>
-                    ))
-                }
-            </ul>
+            <div className={"photo"} onClick={()=>{setOpen(!open)}}>
+                <ul className={`circle-menu ${open? "active":"inactive"}`}>
+                    {
+                        technos.map((techno,index)=>(
+                            <li style={{
+                                transform: `rotate(${(360/technos.length)*index}deg`,
+                                transformOrigin: "200px",
+                            }} key={index}>{/*{techno.nom}*/}
+                                <i>{techno.logo}</i>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </div>
         </>
     )
 }

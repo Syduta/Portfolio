@@ -3,20 +3,21 @@ import { faHtml5, faCss3Alt, faSquareJs, faNodeJs, faReact, faPhp, faSymfony, fa
 import mysql from "../img/mysql.png";
 import { useState } from "react";
 
-const fontAwesomeHtml5 = <FontAwesomeIcon icon={faHtml5} color={"#e34f26"}/>;
-const fontAwesomeReact = <FontAwesomeIcon icon={faReact} color={"#00CDF2"} spin/>;
-const fontAwesomeJs = <FontAwesomeIcon icon={faSquareJs} color={"#ead41c"}/>;
-const fontAwesomeNodejs = <FontAwesomeIcon icon={faNodeJs} color={"#4F9640"}/>;
-const fontAwesomePhp = <FontAwesomeIcon icon={faPhp} color={"#5C7AAD"}/>;
-const fontAwesomeCss3 = <FontAwesomeIcon icon={faCss3Alt} color={"#1680C0"}/>;
-const fontAwesomeSymfony = <FontAwesomeIcon icon={faSymfony} color={"#000000"}/>;
-const fontAwesomeBootstrap = <FontAwesomeIcon icon={faBootstrap} color={"#523A76"}/>;
-const fontAwesomeSass = <FontAwesomeIcon icon={faSass} color={"#C36192"}/>;
+const fontAwesomeHtml5 = <FontAwesomeIcon icon={faHtml5} color={"#e34f26"} fontSize={"1.5em"}/>;
+const fontAwesomeReact = <FontAwesomeIcon icon={faReact} color={"#00CDF2"} fontSize={"1.5em"} spin/>;
+const fontAwesomeJs = <FontAwesomeIcon icon={faSquareJs} color={"#ead41c"} fontSize={"1.5em"}/>;
+const fontAwesomeNodejs = <FontAwesomeIcon icon={faNodeJs} color={"#4F9640"} fontSize={"1.5em"}/>;
+const fontAwesomePhp = <FontAwesomeIcon icon={faPhp} color={"#5C7AAD"} fontSize={"1.5em"}/>;
+const fontAwesomeCss3 = <FontAwesomeIcon icon={faCss3Alt} color={"#1680C0"} fontSize={"1.5em"}/>;
+const fontAwesomeSymfony = <FontAwesomeIcon icon={faSymfony} color={"#000000"} fontSize={"1.5em"}/>;
+const fontAwesomeBootstrap = <FontAwesomeIcon icon={faBootstrap} color={"#523A76"} fontSize={"1.5em"}/>;
+const fontAwesomeSass = <FontAwesomeIcon icon={faSass} color={"#C36192"} fontSize={"1.5em"}/>;
 const logoSql = {
     height: "1em",
-    verticalAlign: "-0.125em"
+    verticalAlign: "-0.3em",
+    fontSize: "1.5em"
 };
-const notFontAwesomeMysql = < img src={mysql} style={logoSql} alt={""}/>
+const notFontAwesomeMysql = < img src={mysql} style={logoSql} alt={""}/>;
 
 const technos = [
     {logo: fontAwesomeHtml5,
@@ -63,7 +64,7 @@ const CircularMenu = () => {
         <>
             <div className={"container"}>
                 <div className={"menu"}>
-                    <div className={"button"} onClick={handleSetIsOpen}></div>
+                    <div className={"button"}></div>
                     {
                         technos.map((techno,index) =>(
                             <div key={index} className={"menu-item"} style={{
@@ -72,13 +73,14 @@ const CircularMenu = () => {
                             }}>
                                 <h4 style={{
                                 transform: `rotate(${-(360/technos.length)*index}deg)`
-                            }}>{techno.nom}{techno.logo}
+                            }}>{techno.nom} {techno.logo}
                                 </h4>
                             </div>
                         ))
                     }
                 </div>
             </div>
+            <div className={"photo"} onClick={handleSetIsOpen}></div>
         </>
     )
 }

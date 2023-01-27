@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 
-const fontAwesomeHome = <FontAwesomeIcon icon={faHouse} />;
+const fontAwesomeHome = <FontAwesomeIcon icon={faHouse}/>;
 const Header = () => {
     return(
         <>
@@ -12,7 +12,9 @@ const Header = () => {
                 <nav>
                     <ul className={"main-nav"}>
                         <li className={"nav-li"}><a href={"#"}><img className={"logo"} src={logo} alt={"logo"}/></a></li>
-                        <li className={"nav-li"}><a href={"#accueil"}>{fontAwesomeHome}</a></li>
+                        <li className={"nav-li"}><a href={"#accueil"} style={{
+                            verticalAlign: "0.5em"
+                        }}>{fontAwesomeHome}</a></li>
                         <li className={"nav-li"}><a href={"#apropos"}>À propos</a></li>
                         <li className={"nav-li"}><a href={"#"}>Portfolio</a></li>
                         <li className={"nav-li"}><a href={"#"}>Contact</a></li>

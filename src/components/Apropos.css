@@ -1,6 +1,10 @@
+.svg-inline--fa{
+    vertical-align: -0.3em;
+}
 #apropos{
     height: 100vh;
     border: 5px solid chartreuse;
+    position: relative;
 }
 
 #apropos h3{

@@ -64,7 +64,6 @@ const CircularMenu = () => {
         <>
             <div className={"container"}>
                 <div className={"menu"}>
-                    <div className={"button"}></div>
                     {
                         technos.map((techno,index) =>(
                             <div key={index} className={"menu-item"} style={{

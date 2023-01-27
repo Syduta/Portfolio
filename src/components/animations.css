@@ -1,0 +1,47 @@
+.float{
+    animation: floating 3s -1s infinite;
+}
+
+.spin{
+    animation: spin-right 30s linear infinite;
+}
+
+.counter-spin-0{
+    animation: counter-spin 30s linear infinite;
+}
+
+.counter-spin-1{
+    animation: counter-spin-react 30s linear infinite;
+}
+
+.counter-spin-2{
+    animation: counter-spin-js 30s linear infinite;
+}
+
+.counter-spin-3{
+    animation: counter-spin-node 30s linear infinite;
+}
+
+.counter-spin-4{
+    animation: counter-spin-php 30s linear infinite;
+}
+
+.counter-spin-5{
+    animation: counter-spin-css 30s linear infinite;
+}
+
+.counter-spin-6{
+    animation: counter-spin-symf 30s linear infinite;
+}
+
+.counter-spin-7{
+    animation: counter-spin-boot 30s linear infinite;
+}
+
+.counter-spin-8{
+    animation: counter-spin-sass 30s linear infinite;
+}
+
+.counter-spin-9{
+    animation: counter-spin-mysql 30s linear infinite;
+}

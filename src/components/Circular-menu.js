@@ -63,15 +63,15 @@ const CircularMenu = () => {
     return(
         <>
             <div className={"container"}>
-                <div className={"menu"}>
+                <div className={`menu ${isOpen ? "spin" : ""}`}>
                     {
                         technos.map((techno,index) =>(
-                            <div key={index} className={"menu-item"} style={{
-                                transform: `rotate(${(360/technos.length)*index}deg) translate(${isOpen ? 175 : 0 }%)`,
-                                transitionDelay: `${isOpen ? (index*75) : 0 }ms`
+                            <div key={index} className={`menu-item`} style={{
+                                    transform: `rotate(${(360/technos.length)*index}deg) translate(${isOpen ? 175 : 0 }%)`,
+                                    transitionDelay: `${isOpen ? (index*75) : 0 }ms`
                             }}>
-                                <h4 style={{
-                                transform: `rotate(${-(360/technos.length)*index}deg)`
+                                <h4 className={`${isOpen ? "counter-spin" : ""}-${index}`} style={{
+                                    transform: `rotate(${-(360/technos.length)*index}deg)`
                             }}>{techno.nom} {techno.logo}
                                 </h4>
                             </div>
@@ -79,9 +79,8 @@ const CircularMenu = () => {
                     }
                 </div>
             </div>
-            <div className={"photo"} onClick={handleSetIsOpen}></div>
+            <div className={`photo ${isOpen ? "" : "float"}`} onClick={handleSetIsOpen}></div>
         </>
     )
 }
-
 export default CircularMenu;

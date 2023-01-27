@@ -1,0 +1,48 @@
+@keyframes floating {
+    0%, 100% { transform: translate(-50%, -5%); }
+    50% { transform: translate(-50%, 0); }
+}
+
+@keyframes spin-right {
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes counter-spin {
+    100% { transform: rotate(-360deg); }
+}
+
+@keyframes counter-spin-react {
+    100% { transform: rotate(-396deg); }
+}
+
+@keyframes counter-spin-js {
+    100% { transform: rotate(-432deg); }
+}
+
+@keyframes counter-spin-node {
+    100% { transform: rotate(-468deg); }
+}
+
+@keyframes counter-spin-php {
+    100% { transform: rotate(-504deg); }
+}
+
+@keyframes counter-spin-css {
+    100% { transform: rotate(-540deg); }
+}
+
+@keyframes counter-spin-symf {
+    100% { transform: rotate(-576deg); }
+}
+
+@keyframes counter-spin-boot {
+    100% { transform: rotate(-612deg); }
+}
+
+@keyframes counter-spin-sass {
+    100% { transform: rotate(-648deg); }
+}
+
+@keyframes counter-spin-mysql {
+    100% { transform: rotate(-684deg); }
+}

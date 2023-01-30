@@ -3,45 +3,45 @@
 }
 
 .spin{
-    animation: spin-right 30s linear infinite;
+    animation: spin-right 10s linear 1;
 }
 
 .counter-spin-0{
-    animation: counter-spin 30s linear infinite;
+    animation: counter-spin 10s linear 1;
 }
 
 .counter-spin-1{
-    animation: counter-spin-react 30s linear infinite;
+    animation: counter-spin-react 10s linear 1;
 }
 
 .counter-spin-2{
-    animation: counter-spin-js 30s linear infinite;
+    animation: counter-spin-js 10s linear 1;
 }
 
 .counter-spin-3{
-    animation: counter-spin-node 30s linear infinite;
+    animation: counter-spin-node 10s linear 1;
 }
 
 .counter-spin-4{
-    animation: counter-spin-php 30s linear infinite;
+    animation: counter-spin-php 10s linear 1;
 }
 
 .counter-spin-5{
-    animation: counter-spin-css 30s linear infinite;
+    animation: counter-spin-css 10s linear 1;
 }
 
 .counter-spin-6{
-    animation: counter-spin-symf 30s linear infinite;
+    animation: counter-spin-symf 10s linear 1;
 }
 
 .counter-spin-7{
-    animation: counter-spin-boot 30s linear infinite;
+    animation: counter-spin-boot 10s linear 1;
 }
 
 .counter-spin-8{
-    animation: counter-spin-sass 30s linear infinite;
+    animation: counter-spin-sass 10s linear 1;
 }
 
 .counter-spin-9{
-    animation: counter-spin-mysql 30s linear infinite;
+    animation: counter-spin-mysql 10s linear 1;
 }

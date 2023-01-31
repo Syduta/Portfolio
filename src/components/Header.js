@@ -23,7 +23,7 @@ const Header = () => {
             </header>
             <section id={"banner"}>
                 <div className={"banner-content"}>
-                    <h1>Thibault TOUZIN</h1>
+                    <h1>THIBAULT TOUZIN</h1>
                     <h2>développeur web & web mobile</h2>
                 </div>
             </section>

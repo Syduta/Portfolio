@@ -9,6 +9,16 @@
   list-style: none;
 }
 
+@font-face {
+  font-family: "mars";
+  src: url("../src/components/fonts/MarsType-Regular.otf");
+}
+
+h3{
+  font-family: "mars","Roboto","sans-serif";
+  text-transform: uppercase;
+}
+
 @media
 (prefers-reduced-motion: no-preference) {
   html {

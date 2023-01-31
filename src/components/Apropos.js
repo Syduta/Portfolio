@@ -23,7 +23,7 @@ const Apropos = () => {
         <>
             <section id={"apropos"}>
                 <h3>À propos</h3>
-                <div className={"truc-container"}>
+                <div className={"side-container"}>
                     <div className={"description"}>
                         <p>Développeur passionné depuis mes premières lignes de code suite à une reconversion en 2022. </p>
                         <p>J'aime autant coder le back que le front. Chaque projet étant différent d'un autre je trouve
@@ -32,14 +32,13 @@ const Apropos = () => {
                             impatient de travailler avec vous ! </p>
                     </div>
                     <div className={"competences"}>
-                        <p>Après avoir fait le tour de ma roue des technos je vous laisse découvrir les compétences
-                            que je souhaite mettre à vôtre disposition.</p>
-                        <ul>Pour la partie front-end :
+                        <p>Après avoir fait le tour de ma roue des technos je vous laisse découvrir mes <em className={"emphase"}>compétences</em>.</p>
+                        <ul><span className={"fullstack"}>Front-end</span>
                             <li>Le maquetage.</li>
                             <li>La création d'une interface statique et adaptable.</li>
                             <li>Ou d'une interface dynamique.</li>
                         </ul>
-                        <ul>Pour la partie back-end :
+                        <ul><span className={"fullstack"}>Back-end</span>
                             <li>La création d'une base de données.</li>
                             <li>le développement de composants d'accès à ces données.</li>
                         </ul>

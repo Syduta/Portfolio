@@ -1,6 +1,5 @@
 @import "colors.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');/*roboto font*/
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');/*cinzel font*/
 
 header{
     background-color: var(--navColor);
@@ -8,16 +7,16 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
-    font-family: "Roboto","sans-serif";
+    font-family: "mars","Roboto","sans-serif";
 }
 
 .logo{
     height: 1.25em;
+    vertical-align: -0.2em;
 }
 
 .main-nav{
     display:flex;
-    /*justify-content:flex-end;*/
     text-transform:uppercase;
     align-items: center;
 }
@@ -53,7 +52,7 @@ header{
     text-align: center;
     font-size: 1.4rem;
     text-transform: capitalize;
-    font-family: 'Cinzel', serif;
+    font-family: "mars","Roboto","sans-serif";
     background-color: var(--navColor);
     opacity: 0.9;
     width: 66vw;

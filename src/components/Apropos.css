@@ -9,7 +9,6 @@
 }
 
 #apropos h3{
-    text-transform: uppercase;
     position: absolute;
     top: 15%;
     left: 50%;
@@ -19,45 +18,62 @@
 
 .menu-item h4{
     font-weight: bolder;
+    font-family: "Roboto","sans-serif";
     color: var(--navColor);
 }
 
 .description p, .competences p, .competences ul {
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 .competences li{
     text-align: left;
+    font-style: italic;
     margin-left: 3.5rem;
-    list-style: initial;
-}
-
-.competences li:first-child{
-    margin-top: 1rem;
+    list-style-type:'- ';
 }
 
 .competences{
     width: 30vw;
-    text-align: center;
+    text-align: justify;
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
     padding: 0 2.5rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
 }
 
 .description{
     width: 30vw;
-    text-align: center;
+    text-align: justify;
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
     padding: 0 2.5rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
 }
 
-.truc-container{
+.side-container{
     display: flex;
     height: 100%;
     width: 100%;
     align-items: center;
     justify-content: space-between;
+}
+
+.emphase{
+    font-family: "mars","Roboto","sans-serif";
+    font-size: 1.4rem;
+}
+
+.fullstack{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: "mars","Roboto","sans-serif";
+    display: inline-block;
+    margin-bottom: 1rem;
 }
 /* circular-menu */
 

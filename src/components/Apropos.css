@@ -10,7 +10,7 @@
 
 #apropos h3{
     position: absolute;
-    top: 15%;
+    top: 13.5%;
     left: 50%;
     transform: translate(-50%);
     font-size: 2rem;
@@ -42,6 +42,7 @@
     padding: 0 2.5rem;
     font-size: 1.3rem;
     font-weight: lighter;
+    margin-right: 2rem;
 }
 
 .description{
@@ -53,6 +54,7 @@
     padding: 0 2.5rem;
     font-size: 1.3rem;
     font-weight: lighter;
+    margin-left: 2rem;
 }
 
 .side-container{

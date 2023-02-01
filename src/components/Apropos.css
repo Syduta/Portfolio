@@ -3,7 +3,6 @@
 
 #apropos{
     height: 100vh;
-    border: 5px solid chartreuse;
     position: relative;
     background-color: var(--navFontColor);
 }
@@ -22,8 +21,12 @@
     color: var(--navColor);
 }
 
-.description p, .competences p, .competences ul {
-    margin-bottom: 2.5rem;
+.description p, .competences p{
+    margin-bottom: 2rem;
+}
+
+.competences ul{
+    margin-bottom: 0.5rem;
 }
 
 .competences li{
@@ -33,28 +36,18 @@
     list-style-type:'- ';
 }
 
-.competences{
+.competences, .description{
     width: 30vw;
+    height: 40vh;
     text-align: justify;
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    align-items: center;
+    margin: 0 2vw 0 2vw;
     padding: 0 2.5rem;
     font-size: 1.3rem;
     font-weight: lighter;
-    margin-right: 2rem;
-}
-
-.description{
-    width: 30vw;
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
-    padding: 0 2.5rem;
-    font-size: 1.3rem;
-    font-weight: lighter;
-    margin-left: 2rem;
+    overflow: visible;
 }
 
 .side-container{
@@ -75,7 +68,6 @@
     font-size: 1.3rem;
     font-family: "mars","Roboto","sans-serif";
     display: inline-block;
-    margin-bottom: 1rem;
 }
 /* circular-menu */
 

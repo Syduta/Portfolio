@@ -14,6 +14,11 @@
   src: url("../src/components/fonts/MarsType-Regular.otf");
 }
 
+@font-face {
+  font-family: "shineon";
+  src: url("../src/components/fonts/Shineon.ttf");
+}
+
 h3{
   font-family: "mars","Roboto","sans-serif";
   text-transform: uppercase;

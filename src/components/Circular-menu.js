@@ -26,8 +26,8 @@ const technos = [
     {logo: fontAwesomeReact,
         nom: "React "
     },
-    {logo: fontAwesomeJs,
-        nom: "Javascript "
+    {logo: fontAwesomeBootstrap,
+        nom: "Bootstrap  "
     },
     {logo: fontAwesomeNodejs,
         nom: "NodeJs "
@@ -41,8 +41,8 @@ const technos = [
     {logo: fontAwesomeSymfony,
         nom: "Symfony "
     },
-    {logo: fontAwesomeBootstrap,
-        nom: "Bootstrap "
+    {logo: fontAwesomeJs,
+        nom: "Javascript"
     },
     {logo: fontAwesomeSass,
         nom: "Sass "

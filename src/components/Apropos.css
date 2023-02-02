@@ -38,7 +38,7 @@
 }
 .competences ul, .competences p{
     margin-bottom: 1rem;
-    color: var(--navFontColor);
+    color: var(--navColor);
 }
 
 .competences li{
@@ -49,19 +49,15 @@
 }
 
 .description{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.7)) ,url("../img/feuille.jpg");
-    background-size: cover;
-    background-position: center;
     font-family: "Aboreto", cursive,"Roboto","sans-serif";
+    position: relative;
+    top: 10vh;
 }
 
 .competences{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.7)) ,url("../img/feuille2.jpg");
-    background-size: cover;
-    background-position: center;
     font-family: "Aboreto", cursive,"Roboto","sans-serif";
+    position: relative;
+    top: 10vh;
 }
 
 .competences, .description{
@@ -75,7 +71,6 @@
     padding: 0 2.5rem;
     font-size: 1.2rem;
     font-weight: lighter;
-    overflow: visible;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 1.25rem;
 }

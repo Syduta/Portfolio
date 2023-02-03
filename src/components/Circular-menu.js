@@ -3,19 +3,19 @@ import { faHtml5, faCss3Alt, faSquareJs, faNodeJs, faReact, faPhp, faSymfony, fa
 import mysql from "../img/mysql.png";
 import { useState } from "react";
 
-const fontAwesomeHtml5 = <FontAwesomeIcon icon={faHtml5} color={"#e34f26"} fontSize={"1.5em"}/>;
-const fontAwesomeReact = <FontAwesomeIcon icon={faReact} color={"#00CDF2"} fontSize={"1.5em"} spin/>;
-const fontAwesomeJs = <FontAwesomeIcon icon={faSquareJs} color={"#ead41c"} fontSize={"1.5em"}/>;
-const fontAwesomeNodejs = <FontAwesomeIcon icon={faNodeJs} color={"#4F9640"} fontSize={"1.5em"}/>;
-const fontAwesomePhp = <FontAwesomeIcon icon={faPhp} color={"#5C7AAD"} fontSize={"1.5em"}/>;
-const fontAwesomeCss3 = <FontAwesomeIcon icon={faCss3Alt} color={"#1680C0"} fontSize={"1.5em"}/>;
-const fontAwesomeSymfony = <FontAwesomeIcon icon={faSymfony} color={"#000000"} fontSize={"1.5em"}/>;
-const fontAwesomeBootstrap = <FontAwesomeIcon icon={faBootstrap} color={"#523A76"} fontSize={"1.5em"}/>;
-const fontAwesomeSass = <FontAwesomeIcon icon={faSass} color={"#C36192"} fontSize={"1.5em"}/>;
+const fontAwesomeHtml5 = <FontAwesomeIcon icon={faHtml5} color={"#e34f26"} fontSize={"1em"}/>;
+const fontAwesomeReact = <FontAwesomeIcon icon={faReact} color={"#00CDF2"} fontSize={"1em"} spin/>;
+const fontAwesomeJs = <FontAwesomeIcon icon={faSquareJs} color={"#ead41c"} fontSize={"1em"}/>;
+const fontAwesomeNodejs = <FontAwesomeIcon icon={faNodeJs} color={"#4F9640"} fontSize={"1em"}/>;
+const fontAwesomePhp = <FontAwesomeIcon icon={faPhp} color={"#5C7AAD"} fontSize={"1em"}/>;
+const fontAwesomeCss3 = <FontAwesomeIcon icon={faCss3Alt} color={"#1680C0"} fontSize={"1em"}/>;
+const fontAwesomeSymfony = <FontAwesomeIcon icon={faSymfony} color={"#000000"} fontSize={"1em"}/>;
+const fontAwesomeBootstrap = <FontAwesomeIcon icon={faBootstrap} color={"#523A76"} fontSize={"1em"}/>;
+const fontAwesomeSass = <FontAwesomeIcon icon={faSass} color={"#C36192"} fontSize={"1em"}/>;
 const logoSql = {
     height: "1em",
     verticalAlign: "-0.3em",
-    fontSize: "1.5em"
+    fontSize: "1em"
 };
 const notFontAwesomeMysql = < img src={mysql} style={logoSql} alt={""}/>;
 

@@ -1,6 +1,9 @@
 @import "./components/Header.css";
 @import "./components/Apropos.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');/*roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); /*permanent marker font*/
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -20,7 +23,7 @@
 }
 
 h3{
-  font-family: "mars","Roboto","sans-serif";
+  font-family: "Permanent Marker","Roboto","sans-serif";
   text-transform: uppercase;
 }
 

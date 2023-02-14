@@ -14,10 +14,10 @@ const Apropos = () => {
             window.removeEventListener("scroll", setScroll);
         };
     }, []);
-    console.log(offset);
+    /*console.log(offset);
     if(offset >= 704 && offset <= 800){
         console.log("cool");
-    }
+    }*/
 
     return(
         <>

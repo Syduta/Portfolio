@@ -9,40 +9,80 @@
 
 @keyframes counter-spin {
     100% { transform: rotate(-360deg); }
+    25% {color: var(--navColor);}
+    30% {color: var(--navFontColor); }
+    60% {color: var(--navFontColor); }
+    80% {color: var(--navColor);}
 }
 
 @keyframes counter-spin-react {
     100% { transform: rotate(-396deg); }
+    20% {color: var(--navFontColor); }
+    60% {color: var(--navFontColor); }
+    70% {color: var(--navFontColor); }
+    75% {color: var(--navColor);}
 }
 
 @keyframes counter-spin-js {
     100% { transform: rotate(-432deg); }
+    20% {color: var(--navFontColor); }
+    60% {color: var(--navFontColor); }
+    62% {color: var(--navColor);}
 }
 
 @keyframes counter-spin-node {
     100% { transform: rotate(-468deg); }
+    50% {color: var(--navFontColor);}
+    55% {color: var(--navColor); }
+    80% {color: var(--navColor); }
+    98% {color: var(--navFontColor);}
 }
 
 @keyframes counter-spin-php {
     100% { transform: rotate(-504deg); }
+    40% {color: var(--navFontColor);}
+    42% {color: var(--navColor); }
+    80% {color: var(--navColor); }
+    97% {color: var(--navFontColor);}
 }
 
 @keyframes counter-spin-css {
     100% { transform: rotate(-540deg); }
+    25% {color: var(--navFontColor);}
+    30% {color: var(--navColor); }
+    75% {color: var(--navColor); }
+    80% {color: var(--navFontColor);}
 }
 
 @keyframes counter-spin-symf {
     100% { transform: rotate(-576deg); }
+    20% {color: var(--navColor); }
+    40% {color: var(--navColor); }
+    65% {color: var(--navColor); }
+    70% {color: var(--navFontColor);}
 }
 
 @keyframes counter-spin-boot {
     100% { transform: rotate(-612deg); }
+    0% {color: var(--navColor);}
+    50% {color: var(--navColor);}
+    55% {color: var(--navColor);}
+    60% {color: var(--navFontColor)}
 }
 
 @keyframes counter-spin-sass {
     100% { transform: rotate(-648deg); }
+    0% {color: var(--navColor);}
+    45% {color: var(--navColor);}
+    50% {color: var(--navFontColor);}
+    90% {color: var(--navFontColor)}
 }
 
 @keyframes counter-spin-mysql {
     100% { transform: rotate(-684deg); }
+    0% {color: var(--navColor);}
+    30% {color: var(--navColor);}
+    35% {color: var(--navFontColor);}
+    90% {color: var(--navFontColor)}
+    91% {color: var(--navColor);}
 }

@@ -23,8 +23,22 @@
     font-weight: lighter;
     font-family: "VT323","Roboto","sans-serif";
     font-size: 1.5em;
-    color: var(--navColor);
     text-align: center;
+}
+.counter-spin-7,
+.counter-spin-6,
+.counter-spin-5,
+.counter-spin-4,
+.counter-spin-3{
+    color: var(--navFontColor);
+}
+
+.counter-spin-0,
+.counter-spin-9,
+.counter-spin-8,
+.counter-spin-2,
+.counter-spin-1{
+    color: var(--navColor);
 }
 
 .description p{
@@ -71,7 +85,7 @@
     align-items: center;
     margin: 0 3vw 0 3vw;
     padding: 0 2.5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: lighter;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 1.25rem;

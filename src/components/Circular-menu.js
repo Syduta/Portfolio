@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faSquareJs, faNodeJs, faReact, faPhp, faSymfony, faBootstrap, faSass } from '@fortawesome/free-brands-svg-icons';
 import mysql from "../img/mysql.png";
-import { useState } from "react";
+import {useState} from "react";
 
 const fontAwesomeHtml5 = <FontAwesomeIcon icon={faHtml5} color={"#e34f26"} fontSize={"1em"}/>;
 const fontAwesomeReact = <FontAwesomeIcon icon={faReact} color={"#00CDF2"} fontSize={"1em"} spin/>;
@@ -21,34 +21,34 @@ const notFontAwesomeMysql = < img src={mysql} style={logoSql} alt={""}/>;
 
 const technos = [
     {logo: fontAwesomeHtml5,
-        nom: "Html "
+        nom: "Html ",
     },
     {logo: fontAwesomeReact,
-        nom: "React "
+        nom: "React ",
     },
     {logo: fontAwesomeBootstrap,
-        nom: "Bootstrap  "
+        nom: "Bootstrap  ",
     },
     {logo: fontAwesomeNodejs,
-        nom: "NodeJs "
+        nom: "NodeJs ",
     },
     {logo: fontAwesomePhp,
-        nom: "Php "
+        nom: "Php ",
     },
     {logo: fontAwesomeCss3,
-        nom: "Css "
+        nom: "Css  ",
     },
     {logo: fontAwesomeSymfony,
-        nom: "Symfony "
+        nom: "Symfony ",
     },
     {logo: fontAwesomeJs,
-        nom: "Javascript"
+        nom: "Javascript",
     },
     {logo: fontAwesomeSass,
-        nom: "Sass "
+        nom: "Sass ",
     },
     {logo: notFontAwesomeMysql,
-        nom: "MySql "
+        nom: "MySql ",
     },
 ];
 
@@ -70,9 +70,9 @@ const CircularMenu = () => {
                                     transform: `rotate(${(360/technos.length)*index}deg) translate(${isOpen ? 175 : 0 }%)`,
                                     transitionDelay: `${isOpen ? (index*75) : 0 }ms`
                             }}>
-                                <h4 className={`${isOpen ? "counter-spin" : ""}-${index}`} style={{
+                                <h4 className={`${isOpen ? "counter-spin" : ""}-${index}`}  style={{
                                     transform: `rotate(${-(360/technos.length)*index}deg)`
-                            }}>{techno.nom} {techno.logo}
+                                }}>{techno.nom} {techno.logo}
                                 </h4>
                             </div>
                         ))

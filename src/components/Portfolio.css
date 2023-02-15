@@ -2,6 +2,9 @@
 
 #portfolio{
     height: 100vh;
+    background-image: url("../img/background-portfolio.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 #portfolio h3{
@@ -13,4 +16,25 @@
     font-size: 2rem;
     color: var(--navColor);
     border-bottom: solid 4px darkgreen;
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 18vh;
+}
+
+.projet{
+    border: 1px solid red;
+    height: 30vh;
+    width: 26vw;
+    margin-bottom: 6vh;
+    background-color: var(--navColor);
+}
+
+.underground{
+
 }

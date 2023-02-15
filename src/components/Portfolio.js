@@ -2,7 +2,15 @@ const Portfolio = () => {
     return(
         <>
             <section id={"portfolio"}>
-                <h3>je suis portfolio</h3>
+                <h3>Portfolio</h3>
+                <div className={"project-container"}>
+                    <div className={"projet"}></div>
+                    <div className={"projet underground"}></div>
+                    <div className={"projet"}></div>
+                    <div className={"projet"}></div>
+                    <div className={"projet"}></div>
+                    <div className={"projet"}></div>
+                </div>
             </section>
         </>
     )

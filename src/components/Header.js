@@ -16,8 +16,8 @@ const Header = () => {
                             verticalAlign: "0.5em"
                         }}>{fontAwesomeHome}</a></li>
                         <li className={"nav-li"}><a href={"#apropos"}>À propos</a></li>
-                        <li className={"nav-li"}><a href={"#"}>Portfolio</a></li>
-                        <li className={"nav-li"}><a href={"#"}>Contact</a></li>
+                        <li className={"nav-li"}><a href={"#portfolio"}>Portfolio</a></li>
+                        <li className={"nav-li"}><a href={"#contact"}>Contact</a></li>
                     </ul>
                 </nav>
             </header>

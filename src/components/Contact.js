@@ -7,10 +7,12 @@ const fontAwesomeDiscord = <FontAwesomeIcon icon={faDiscord} color={"#5460E6"}/>
 const Contact = () => {
     return(
         <>
-            <h3>je suis contact</h3>
-            <a>{fontAwesomeLinkedin}</a>
-            <a>{fontAwesomeGithub}</a>
-            <a>{fontAwesomeDiscord}</a>
+            <section id={"contact"}>
+                <h3>je suis contact</h3>
+                <a>{fontAwesomeLinkedin}</a>
+                <a>{fontAwesomeGithub}</a>
+                <a>{fontAwesomeDiscord}</a>
+            </section>
         </>
     )
 }

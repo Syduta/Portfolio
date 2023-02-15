@@ -1,5 +1,6 @@
 @import "./components/Header.css";
 @import "./components/Apropos.css";
+@import "./components/Portfolio.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');/*roboto font*/
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); /*permanent marker font*/

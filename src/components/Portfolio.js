@@ -1,7 +1,9 @@
 const Portfolio = () => {
     return(
         <>
-            <h3>je suis portfolio</h3>
+            <section id={"portfolio"}>
+                <h3>je suis portfolio</h3>
+            </section>
         </>
     )
 }

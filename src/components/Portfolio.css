@@ -28,13 +28,28 @@
 }
 
 .projet{
-    border: 1px solid red;
+    border: 10px solid var(--navColor);
     height: 30vh;
-    width: 26vw;
-    margin-bottom: 6vh;
-    background-color: var(--navColor);
+    width: 20vw;
+    margin: 0 6vh 6vh;
+    box-shadow: 10px 15px var(--navFontColor);
+    border-radius: 5%;
 }
 
 .underground{
+    background-image: url("../img/screen1.png");
+    background-position: center;
+    background-size: cover;
+}
 
+.newworld{
+    background-image: url("../img/screen2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.peps{
+    background-image: url("../img/screen3.png");
+    background-position: center;
+    background-size: cover;
 }

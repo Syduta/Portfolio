@@ -28,11 +28,11 @@
 }
 
 .projet{
-    border: 10px solid var(--navColor);
+    border: 8px solid var(--navColor);
     height: 30vh;
     width: 20vw;
     margin: 0 6vh 6vh;
-    box-shadow: 10px 15px var(--navFontColor);
+    box-shadow: 8px 10px var(--navFontColor);
     border-radius: 5%;
 }
 
@@ -56,6 +56,12 @@
 
 .reno{
     background-image: url("../img/screen4.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.wow{
+    background-image: url("../img/screen5.png");
     background-position: center;
     background-size: cover;
 }

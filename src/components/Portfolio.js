@@ -8,7 +8,7 @@ const Portfolio = () => {
                     <div className={"projet underground"}></div>
                     <div className={"projet peps"}></div>
                     <div className={"projet reno"}></div>
-                    <div className={"projet"}></div>
+                    <div className={"projet wow"}></div>
                     <div className={"projet"}></div>
                 </div>
             </section>

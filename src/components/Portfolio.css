@@ -32,7 +32,6 @@
     height: 30vh;
     width: 20vw;
     margin: 0 6vh 6vh;
-    box-shadow: 8px 10px var(--navFontColor);
     border-radius: 5%;
 }
 
@@ -64,4 +63,15 @@
     background-image: url("../img/screen5.png");
     background-position: center;
     background-size: cover;
+}
+
+figcaption{
+    height: 28vh;
+    width: 19vw;
+    text-align: center;
+    color: var(--navFontColor);
+}
+
+figcaption h1{
+    background-color: var(--navColor);
 }

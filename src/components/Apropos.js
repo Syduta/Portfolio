@@ -1,23 +1,6 @@
-import React, { useEffect, useState } from 'react';
 import CircularMenu from "./Circular-menu";
 
 const Apropos = () => {
-
-    const [offset, setOffset] = useState(null);
-    const setScroll = () => {
-        setOffset(window.scrollY);
-    };
-
-    useEffect(() => {
-        window.addEventListener("scroll", setScroll);
-        return () => {
-            window.removeEventListener("scroll", setScroll);
-        };
-    }, []);
-    /*console.log(offset);
-    if(offset >= 704 && offset <= 800){
-        console.log("cool");
-    }*/
 
     return(
         <>

@@ -5,6 +5,7 @@
     background-image: url("../img/background-portfolio.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 #portfolio h3{
@@ -32,7 +33,7 @@
     height: 30vh;
     width: 20vw;
     margin: 0 6vh 6vh;
-    border-radius: 5%;
+    cursor: pointer;
 }
 
 .underground{
@@ -45,6 +46,28 @@
     background-image: url("../img/screen2.png");
     background-position: center;
     background-size: cover;
+}
+
+.maquette-nw{
+    background-image: url("../img/new-world.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    width: 90vw;
+    position: absolute;
+    top: 10%;
+    backdrop-filter: blur(5px);
+}
+
+.maquette-underground{
+    background-image: url("../img/the-underground.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    width: 90vw;
+    position: absolute;
+    top: 10%;
+    backdrop-filter: blur(5px);
 }
 
 .peps{
@@ -72,6 +95,7 @@ figcaption{
     color: var(--navFontColor);
 }
 
-figcaption h1{
+figcaption h4, figcaption p{
     background-color: var(--navColor);
+    opacity: 80%;
 }

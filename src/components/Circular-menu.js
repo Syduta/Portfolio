@@ -21,6 +21,7 @@ const notFontAwesomeMysql = < img src={mysql} style={logoSql} alt={""}/>;
 
 const technos = [
     {logo: fontAwesomeHtml5,
+
         nom: "Html ",
     },
     {logo: fontAwesomeReact,
@@ -70,7 +71,7 @@ const CircularMenu = () => {
                                     transform: `rotate(${(360/technos.length)*index}deg) translate(${isOpen ? 175 : 0 }%)`,
                                     transitionDelay: `${isOpen ? (index*75) : 0 }ms`
                             }}>
-                                <h4 className={`${isOpen ? "counter-spin" : ""}-${index}`}  style={{
+                                <h4 className={`${isOpen ? "counter-spin" : ""}-${index}`} style={{
                                     transform: `rotate(${-(360/technos.length)*index}deg)`
                                 }}>{techno.nom} {techno.logo}
                                 </h4>

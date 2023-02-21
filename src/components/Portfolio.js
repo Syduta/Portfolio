@@ -1,6 +1,5 @@
 import {useState} from "react";
 
-
 const projets = [
     {
         nom: "New World",
@@ -42,25 +41,31 @@ const projets = [
 const Portfolio = () => {
     const [showCaption, setShowCaption] = useState(false);
     const [showImage, setShowImage] = useState(false);
+    const [activeImage, setActiveImage] = useState(-1);
     const handleShowImage = () => {
         setShowImage(prevState => !prevState);
     }
-
 
     return(
         <>
             <section id={"portfolio"}>
                 <h3>Portfolio</h3>
-                <div className={"project-container"}>
+                <div className={"projects-container"}>
                     {
                         projets.map((projet, index) => {
                             return(
                                 <div key={index} className={`projet ${projet.classe} ${showImage ? `${projet.maquette}` : ""}`}
-                                     onMouseEnter={() => {setShowCaption(true);}}
-                                     onMouseLeave={() => {setShowCaption(false);}}
+                                     onMouseEnter={() =>{
+                                        setShowCaption(true);
+                                        setActiveImage(index);
+                                    }}
+                                     onMouseLeave={() => {
+                                         setShowCaption(false);
+                                         setActiveImage(-1);
+                                     }}
                                      onClick={handleShowImage}
                                 >
-                                    <figcaption>{showCaption && <div><h4>Projet {projet.nom}</h4><p>{projet.technos}</p></div>}</figcaption>
+                                    <figcaption>{index === activeImage && showCaption && <div><h4>Projet {projet.nom}</h4><p>{projet.technos}</p></div>}</figcaption>
                                 </div>
                             )
                         })

@@ -6,36 +6,42 @@ const projets = [
         technos: "Html - Css",
         classe: "newworld",
         maquette: "maquette-nw",
+        description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
     {
         nom: "The Underground",
         technos: "Html - Css",
         classe: "underground",
         maquette: "maquette-underground",
+        description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
     {
         nom: "Pep's Coaching",
         technos: "Html - Css",
         classe: "peps",
         maquette: "maquette-peps",
+        description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
     {
         nom: "Espace Rénovation",
         technos: "Html - Css - Bootstrap",
         classe: "reno",
         maquette: "maquette-reno",
+        description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
     {
         nom: "WoW",
         technos: "Html - Css",
         classe: "wow",
         maquette: "maquette-wow",
+        description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
     {
-        nom: "",
-        technos: "Html - Css",
-        classe: "",
-        maquette: "maquette",
+        nom: "Travel Together",
+        technos: "Html - Css - Sass",
+        classe: "travel",
+        maquette: "maquette-travel",
+        description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
 ];
 const Portfolio = () => {
@@ -54,7 +60,7 @@ const Portfolio = () => {
                     {
                         projets.map((projet, index) => {
                             return(
-                                <div key={index} className={`projet ${projet.classe} ${showImage ? `${projet.maquette}` : ""}`}
+                                <div key={index} className={`projet ${projet.classe} ${index === activeImage && showImage ? `${projet.maquette}` : ""}`}
                                      onMouseEnter={() =>{
                                         setShowCaption(true);
                                         setActiveImage(index);
@@ -62,10 +68,11 @@ const Portfolio = () => {
                                      onMouseLeave={() => {
                                          setShowCaption(false);
                                          setActiveImage(-1);
+                                         setShowImage(false);
                                      }}
-                                     onClick={handleShowImage}
+                                     onClick={handleShowImage }
                                 >
-                                    <figcaption>{index === activeImage && showCaption && <div><h4>Projet {projet.nom}</h4><p>{projet.technos}</p></div>}</figcaption>
+                                    <figcaption>{index === activeImage && showCaption && <div><h4>Projet {projet.nom}</h4><p>{projet.technos}</p><p>{projet.description}</p></div>}</figcaption>
                                 </div>
                             )
                         })

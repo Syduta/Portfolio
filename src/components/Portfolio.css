@@ -34,101 +34,63 @@
     width: 20vw;
     margin: 0 6vh 6vh;
     cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+
+.projet:hover{
+    border: 8px solid var(--navFontColor);
 }
 
 .underground{
     background-image: url("../img/screen1.png");
-    background-position: center;
-    background-size: cover;
 }
 
 .newworld{
     background-image: url("../img/screen2.png");
-    background-position: center;
-    background-size: cover;
 }
 
 .maquette-nw{
     background-image: url("../img/new-world.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 90vh;
-    width: 90vw;
-    position: absolute;
-    top: 10%;
-    backdrop-filter: blur(5px);
 }
 
 .maquette-underground{
     background-image: url("../img/the-underground.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 90vh;
-    width: 90vw;
-    position: absolute;
-    top: 10%;
-    backdrop-filter: blur(5px);
 }
 
 .peps{
     background-image: url("../img/screen3.png");
-    background-position: center;
-    background-size: cover;
 }
 
 .maquette-peps{
     background-image: url("../img/peps.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 90vh;
-    width: 90vw;
-    position: absolute;
-    top: 10%;
-    backdrop-filter: blur(5px);
 }
 
 .reno{
     background-image: url("../img/screen4.png");
-    background-position: center;
-    background-size: cover;
 }
 
 .maquette-reno{
     background-image: url("../img/reno.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 90vh;
-    width: 90vw;
-    position: absolute;
-    top: 10%;
-    backdrop-filter: blur(5px);
 }
 
 .wow{
     background-image: url("../img/screen5.png");
-    background-position: center;
-    background-size: cover;
 }
 
 .maquette-wow{
     background-image: url("../img/wow.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 90vh;
-    width: 90vw;
-    position: absolute;
-    top: 10%;
-    backdrop-filter: blur(5px);
 }
 
 .travel{
     background-image: url("../img/screen6.png");
-    background-position: center;
-    background-size: cover;
 }
 
 .maquette-travel{
     background-image: url("../img/travel.png");
+}
+
+.maquette{
     background-repeat: no-repeat;
     background-size: contain;
     height: 90vh;

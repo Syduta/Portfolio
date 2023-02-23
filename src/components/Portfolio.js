@@ -5,42 +5,42 @@ const projets = [
         nom: "New World",
         technos: "Html - Css",
         classe: "newworld",
-        maquette: "maquette-nw",
+        maquette: "maquette maquette-nw",
         description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
     {
         nom: "The Underground",
         technos: "Html - Css",
         classe: "underground",
-        maquette: "maquette-underground",
+        maquette: "maquette maquette-underground",
         description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
     {
         nom: "Pep's Coaching",
         technos: "Html - Css",
         classe: "peps",
-        maquette: "maquette-peps",
+        maquette: "maquette maquette-peps",
         description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
     {
         nom: "Espace Rénovation",
         technos: "Html - Css - Bootstrap",
         classe: "reno",
-        maquette: "maquette-reno",
+        maquette: "maquette maquette-reno",
         description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
     {
         nom: "WoW",
         technos: "Html - Css",
         classe: "wow",
-        maquette: "maquette-wow",
+        maquette: "maquette maquette-wow",
         description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
     {
         nom: "Travel Together",
         technos: "Html - Css - Sass",
         classe: "travel",
-        maquette: "maquette-travel",
+        maquette: "maquette maquette-travel",
         description: "Projet réalisé en tant qu'exercice de mise en situation."
     },
 ];

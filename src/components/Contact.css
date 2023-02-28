@@ -19,14 +19,37 @@
     transform: translate(-50%);
 }
 
-#contact a{
+#contact a, #contact p{
     margin: 1em;
+    font-family: "mars","roboto";
 }
 
 .input-container{
     justify-content: center;
 }
 
-input[type=text]{
+input[type=text], input[type=email], textarea{
+    width: 30vw;
+    padding: 3px 0 3px 35px;
+    font-family: "mars","roboto";
+    font-size: 1rem;
+    margin-bottom: 3px;
+}
 
+textarea{
+    height: 20vh;
+}
+
+input[type=submit]{
+    width: 5vw;
+    padding: 3px;
+}
+
+label{
+    position: absolute;
+    margin-left: 0.75vw;
+    margin-top: 0.5vh;
+}
+form{
+    text-align: center;
 }

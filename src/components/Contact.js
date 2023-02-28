@@ -12,7 +12,7 @@ const Contact = () => {
                 <h3>Contact</h3>
                 <p>Je suis joignable par mail,</p>
                 <ContactForm />
-                <p>Ou sur </p>
+                <p>ou sur </p>
                 <div>
                     <a href={"https://www.linkedin.com/in/thibaulttouzin/"} target={"_blank"} rel="noreferrer" >{fontAwesomeLinkedin}</a>
                     <a href={"https://github.com/Syduta"} target={"_blank"} rel="noreferrer" >{fontAwesomeGithub}</a>

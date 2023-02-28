@@ -29,11 +29,16 @@
 }
 
 input[type=text], input[type=email], textarea{
-    width: 30vw;
+    width: 35vw;
     padding: 3px 0 3px 35px;
     font-family: "mars","roboto";
     font-size: 1rem;
     margin-bottom: 3px;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus{
+    border: 2px solid darkgreen;
+    outline: 0;
 }
 
 textarea{

@@ -21,7 +21,7 @@
 
 #contact a, #contact p{
     margin: 1em;
-    font-family: "mars","roboto";
+    font-family: "mars","Roboto","sans-serif";
 }
 
 .input-container{
@@ -31,7 +31,7 @@
 input[type=text], input[type=email], textarea{
     width: 35vw;
     padding: 3px 0 3px 35px;
-    font-family: "mars","roboto";
+    font-family: "mars","Roboto","sans-serif";
     font-size: 1rem;
     margin-bottom: 3px;
 }
@@ -46,8 +46,14 @@ textarea{
 }
 
 input[type=submit]{
-    width: 5vw;
-    padding: 3px;
+    padding: 4px 10px;
+    background-color: white;
+    font-family: "mars","Roboto","sans-serif";
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: honeydew;
 }
 
 label{

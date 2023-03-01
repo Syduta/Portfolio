@@ -1,24 +1,41 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faEnvelope, faMessage } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faEnvelope, faMessage, faLock } from "@fortawesome/free-solid-svg-icons";
+import {useRef} from "react";
 
 const user = <FontAwesomeIcon icon={faUser} fontSize={"1em"} />;
 const email = <FontAwesomeIcon icon={faEnvelope} fontSize={"1em"} />;
 const message = <FontAwesomeIcon icon={faMessage} fontSize={"1em"} />;
+const cadenas = <FontAwesomeIcon icon={faLock} fontSize={"1em"} />;
 const ContactForm = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        const control = form.current[3].value;
+        if (control === "15") {
+            console.log(control);
+        }
+    };
+
     return(
         <>
-            <form>
+            <form ref={form} autoComplete={"off"} onSubmit={sendEmail}>
                 <div className={"input-container"}>
                     <label>{user}</label>
-                    <input type={"text"} placeholder={`Votre prénom et nom`} aria-label={"Entrez votre prénom et nom"} name={"user_name"} required />
+                    <input type={"text"} placeholder={`Votre prénom et nom`} aria-label={"Entrez votre prénom et nom."} name={"user_name"} required />
                 </div>
                 <div className={"input-container"}>
                     <label>{email}</label>
-                    <input type={"email"} placeholder={"Votre adresse email"} aria-label={"Entrez votre adresse email"} name={"user_email"} required />
+                    <input type={"email"} placeholder={"Votre adresse email"} aria-label={"Entrez votre adresse email."} name={"user_email"} required />
                 </div>
                 <div className={"input-container"}>
                     <label>{message}</label>
-                    <textarea name={"message"} placeholder={"Le message à envoyer"} aria-label={"Tapez votre message"} />
+                    <textarea name={"message"} placeholder={"Le message à envoyer"} aria-label={"Tapez votre message."} />
+                </div>
+                <div className={"input-container"}>
+                    <label>{cadenas}</label>
+                    <input name={"lock"} type={"text"} placeholder={`6 + 9 = ?`} aria-label={"combien font six plus neuf ?"} required />
                 </div>
                 <input type={"submit"} value={"Envoyer"} required />
             </form>

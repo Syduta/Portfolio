@@ -10,12 +10,15 @@ const cadenas = <FontAwesomeIcon icon={faLock} fontSize={"1em"} />;
 const ContactForm = () => {
 
     const form = useRef();
+    const serviceId = process.env.REACT_APP_YOUR_SERVICE_ID;
+    const templateId = process.env.REACT_APP_YOUR_TEMPLATE_ID;
+    const publicKey = process.env.REACT_APP_YOUR_PUBLIC_KEY;
 
     const sendEmail = (e) => {
         e.preventDefault();
         const control = form.current[3].value;
         if (control === "15") {
-            emailjs.sendForm(`${process.env.REACT_APP_YOUR_SERVICE_ID}`, `${process.env.REACT_APP_YOUR_TEMPLATE_ID}`, form.current, `${process.env.REACT_APP_YOUR_PUBLIC_KEY}`)
+            emailjs.sendForm(`${serviceId}`, `${templateId}`, form.current, `${publicKey}`)
                 .then((result) => {
                     console.log(result.text);
                 }, (error) => {

@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faEnvelope, faMessage, faLock } from "@fortawesome/free-solid-svg-icons";
 import {useRef} from "react";
+import emailjs from '@emailjs/browser';
 
 const user = <FontAwesomeIcon icon={faUser} fontSize={"1em"} />;
 const email = <FontAwesomeIcon icon={faEnvelope} fontSize={"1em"} />;
@@ -14,7 +15,12 @@ const ContactForm = () => {
         e.preventDefault();
         const control = form.current[3].value;
         if (control === "15") {
-            console.log(control);
+            emailjs.sendForm(`${process.env.REACT_APP_YOUR_SERVICE_ID}`, `${process.env.REACT_APP_YOUR_TEMPLATE_ID}`, form.current, `${process.env.REACT_APP_YOUR_PUBLIC_KEY}`)
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
         }
     };
 

@@ -11,7 +11,7 @@ const Header = () => {
             <header id={"navbar"}>
                 <nav>
                     <ul className={"main-nav"}>
-                        <li className={"nav-li"}><a href={"#"}><img className={"logo"} src={logo} alt={"logo"}/></a></li>
+                        <li className={"nav-li"}><a href={"#accueil"}><img className={"logo"} src={logo} alt={"logo"}/></a></li>
                         <li className={"nav-li"}><a href={"#accueil"} style={{
                             verticalAlign: "0.5em"
                         }}>{fontAwesomeHome}</a></li>

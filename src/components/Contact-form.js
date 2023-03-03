@@ -10,22 +10,40 @@ const cadenas = <FontAwesomeIcon icon={faLock} fontSize={"1em"} />;
 const ContactForm = () => {
 
     const form = useRef();
-    const serviceId = process.env.REACT_APP_YOUR_SERVICE_ID;
-    const templateId = process.env.REACT_APP_YOUR_TEMPLATE_ID;
-    const publicKey = process.env.REACT_APP_YOUR_PUBLIC_KEY;
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+        const mail = form.current[1].value;
         const control = form.current[3].value;
+
+        const serviceId = process.env.REACT_APP_YOUR_SERVICE_ID;
+        const templateId = process.env.REACT_APP_YOUR_TEMPLATE_ID;
+        const publicKey = process.env.REACT_APP_YOUR_PUBLIC_KEY;
+        const reacherAuthToken = process.env.REACT_APP_REACHER_AUTH_TOKEN;
+        const reacherUrl = process.env.REACT_APP_REACHER_URL;
+
+        const verifyMail = async () => {
+            await fetch(reacherUrl,{
+                method: 'POST',
+                headers: {'Content-Type': 'application/json', Authorization: reacherAuthToken},
+                body: `{to_email: ${mail},"proxy":{"host":"http://localhost:","port":3000}}`
+            })
+                .then(response => response.json())
+                .then(response => console.log(response))
+                .catch(err => console.error(err));
+        }
+
         if (control === "15") {
-            emailjs.sendForm(`${serviceId}`, `${templateId}`, form.current, `${publicKey}`)
+            /* emailjs.sendForm(serviceId, templateId, form.current, publicKey)
                 .then((result) => {
                     console.log(result.text);
                 }, (error) => {
                     console.log(error.text);
-                });
+                });*/ verifyMail();
         }
     };
+
 
     return(
         <>

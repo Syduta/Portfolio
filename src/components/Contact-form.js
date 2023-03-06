@@ -24,11 +24,12 @@ const ContactForm = () => {
         const reacherUrl = process.env.REACT_APP_REACHER_URL;
 
         const verifyMail = async () => {
-            await fetch(reacherUrl,{
+            const options = {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json', Authorization: reacherAuthToken},
-                body: `{to_email: ${mail},"proxy":{"host":"http://localhost:","port":3000}}`
-            })
+                body: JSON.stringify({"to_email":mail})
+            };
+            await fetch(`${reacherUrl}`, options)
                 .then(response => response.json())
                 .then(response => console.log(response))
                 .catch(err => console.error(err));
@@ -43,7 +44,6 @@ const ContactForm = () => {
                 });*/ verifyMail();
         }
     };
-
 
     return(
         <>

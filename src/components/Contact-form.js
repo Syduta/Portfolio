@@ -31,17 +31,30 @@ const ContactForm = () => {
             };
             await fetch(`${reacherUrl}`, options)
                 .then(response => response.json())
-                .then(response => console.log(response))
+                .then(response => {
+                    const isReachable = response;
+                    if (isReachable.is_reachable === "safe"){
+                        emailjs.sendForm(serviceId, templateId, form.current, publicKey)
+                            .then((result) => {
+                                return(
+                                    alert.success("message envoyé")
+                                )
+                            }, (error) => {
+                                return(
+                                    alert.err("erreur, vérifiez les champs")
+                                )
+                            });
+                    }else{
+                        return(
+                            alert.err("email non valide")
+                        )
+                    }
+                })
                 .catch(err => console.error(err));
         }
 
         if (control === "15") {
-            /* emailjs.sendForm(serviceId, templateId, form.current, publicKey)
-                .then((result) => {
-                    console.log(result.text);
-                }, (error) => {
-                    console.log(error.text);
-                });*/ verifyMail();
+             verifyMail();
         }
     };
 

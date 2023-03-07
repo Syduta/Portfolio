@@ -37,17 +37,18 @@ const ContactForm = () => {
                         emailjs.sendForm(serviceId, templateId, form.current, publicKey)
                             .then((result) => {
                                 return(
-                                    alert.success("message envoyé")
-                                )
+                                    alert("Message envoyé.")
+                                );
                             }, (error) => {
                                 return(
-                                    alert.err("erreur, vérifiez les champs")
-                                )
+                                    alert("Une erreur s'est produite.")
+                                );
                             });
+                        e.target.reset();
                     }else{
                         return(
-                            alert.err("email non valide")
-                        )
+                            alert("Email non valide.")
+                        );
                     }
                 })
                 .catch(err => console.error(err));
@@ -55,6 +56,10 @@ const ContactForm = () => {
 
         if (control === "15") {
              verifyMail();
+        }else{
+            return(
+                alert("Résultat de la somme incorrect.")
+            );
         }
     };
 

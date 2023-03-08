@@ -53,7 +53,6 @@ const ContactForm = () => {
                 })
                 .catch(err => console.error(err));
         }
-
         if (control === "15") {
              verifyMail();
         }else{

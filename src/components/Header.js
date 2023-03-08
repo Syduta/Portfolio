@@ -2,7 +2,6 @@ import logo from "../img/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
-
 const fontAwesomeHome = <FontAwesomeIcon icon={faHouse}/>;
 const Header = () => {
     return(

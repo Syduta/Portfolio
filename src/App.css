@@ -35,3 +35,9 @@ h3{
     scroll-behavior: smooth;
   }
 }
+
+.divider{
+  height: 10px;
+  width: 100vw;
+  background-color: var(--navColor);
+}

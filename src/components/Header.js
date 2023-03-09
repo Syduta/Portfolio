@@ -21,6 +21,9 @@ const Header = () => {
                 </nav>
             </header>
             <section id={"banner"}>
+                <div className={"smoke-container"}></div>
+                <div className={"smoke-container-2"}></div>
+                <div className={"smoke-container-3"}></div>
                 <div className={"banner-content"}>
                     <h1>THIBAULT TOUZIN</h1>
                     <h2>développeur web & web mobile</h2>

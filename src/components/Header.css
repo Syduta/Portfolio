@@ -42,6 +42,31 @@ header{
     height: 92vh;
 }
 
+.smoke-container, .smoke-container-2, .smoke-container-3{
+    background-image: url("../img/smoke.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 63vw;
+    /*border: solid red 2px;*/
+    position: absolute;
+    display: block;
+    top: 20vh;
+    width: 80vw;
+    height: 30vh;
+}
+
+.smoke-container{
+    animation: smoke1 10s linear infinite;
+}
+
+.smoke-container-2{
+    animation: smoke2 10s linear infinite;
+}
+
+.smoke-container-3{
+    animation: smoke3 10s linear infinite;
+}
+
 .banner-content{
     color: var(--navFontColor);
     position: absolute;

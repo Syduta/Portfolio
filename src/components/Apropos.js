@@ -8,14 +8,19 @@ const Apropos = () => {
                 <h3>À propos</h3>
                 <div className={"side-container"}>
                     <div className={"description"}>
-                        <p>Développeur passionné depuis mes premières lignes de code suite à une reconversion en 2022. </p>
-                        <p>J'aime autant coder le back que le front. Chaque projet étant différent d'un autre je trouve
-                            toujours intéressant de découvrir et d'en résoudre les problématiques. </p>
-                        <p>Déterminé à évoluer dans le développement web je suis curieux, persévérant, minutieux et
-                            le plus important, impatient de travailler avec vous ! </p>
+                        <p>Développeur curieux et passionné depuis mes premières lignes de code suite à une reconversion en 2022. </p>
+                        <p>J'ai fait mes premiers pas à <a href={"https://www.lapiscine.pro/"}>La Piscine</a> et depuis je
+                            suis fier de pouvoir dire que je n'ai pas cessé d'apprendre.</p>
+                        <p>Déterminé à évoluer je suis persévérant, minutieux, réactif et
+                            impatient de travailler avec vous ! </p>
+                        <p>Front-end, Back-end, ou les deux, l'important pour moi et de rendre un produit correspondant à vos besoins. </p>
+
                     </div>
                     <div className={"competences"}>
-                        <p>Après avoir fait le tour de ma roue des <em>technos</em> je vous laisse découvrir mes <em className={"emphase"}>compétences</em>.</p>
+                        <p>Toutes ces <em>technos</em> qui me font tourner la tête sont celles avec lesquelles
+                            je travaille.</p>
+                        <p>Laisser moi maintenant vous présenter un certain nombre des
+                            <em className={"emphase"}> compétences </em>que je souhaiterai mettre à votre service.</p>
                         <ul><span className={"fullstack"}>Front-end</span>
                             <li>Le maquetage.</li>
                             <li>La création d'une interface statique et adaptable.</li>

@@ -1,5 +1,4 @@
 
-
 #portfolio{
     min-height: 100vh;
     background-image: url("../img/background-portfolio.jpg");
@@ -78,10 +77,6 @@
     background-image: url("../img/screen5.png");
 }
 
-.maquette-wow{
-    background-image: url("../img/wow.png");
-}
-
 .travel{
     background-image: url("../img/screen6.png");
 }
@@ -91,13 +86,19 @@
 }
 
 .maquette{
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 90vh;
-    width: 90vw;
     position: absolute;
     top: 10%;
     backdrop-filter: blur(5px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 200vh;
+    width: 100vw;
+    z-index: 100;
+}
+
+.maquette-wow{
+    background-image: url("../img/wow.png");
 }
 
 figcaption{

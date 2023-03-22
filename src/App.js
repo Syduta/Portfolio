@@ -4,6 +4,7 @@ import Apropos from "./components/Apropos";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Divider from "./components/Divider"
+
 function App() {
   return (
     <>

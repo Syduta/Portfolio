@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState} from "react";
 
 const projets = [
     {
@@ -48,8 +48,10 @@ const Portfolio = () => {
     const [showCaption, setShowCaption] = useState(false);
     const [showImage, setShowImage] = useState(false);
     const [activeImage, setActiveImage] = useState(-1);
+
     const handleShowImage = () => {
         setShowImage(prevState => !prevState);
+        window.location="#portfolio";
     }
 
     return(
@@ -67,12 +69,16 @@ const Portfolio = () => {
                                     }}
                                      onMouseLeave={() => {
                                          setShowCaption(false);
-                                         setActiveImage(-1);
-                                         setShowImage(false);
                                      }}
-                                     onClick={handleShowImage }
+                                     onClick={ handleShowImage }
                                 >
-                                    <figcaption>{index === activeImage && showCaption && <div><h4>Projet {projet.nom}</h4><p>{projet.technos}</p><p>{projet.description}</p></div>}</figcaption>
+                                    <figcaption>{index === activeImage && showCaption &&
+                                        <div>
+                                            <h4>Projet {projet.nom}</h4>
+                                            <p>{projet.technos}</p>
+                                            <p>{projet.description}</p>
+                                        </div>}
+                                    </figcaption>
                                 </div>
                             )
                         })

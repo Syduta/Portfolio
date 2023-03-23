@@ -1,4 +1,4 @@
-import { useState} from "react";
+import {useState} from "react";
 
 const projets = [
     {
@@ -49,10 +49,11 @@ const Portfolio = () => {
     const [showImage, setShowImage] = useState(false);
     const [activeImage, setActiveImage] = useState(-1);
 
-    const handleShowImage = () => {
+    const handleShowImage = (e) => {
         setShowImage(prevState => !prevState);
-        window.location="#portfolio";
-    }
+        console.log(`you have clicked X:${e.screenX} Y:${e.screenY}`)
+            window.location="#portfolio";
+    };
 
     return(
         <>

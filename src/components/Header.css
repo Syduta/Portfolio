@@ -40,6 +40,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 92vh;
+    background-attachment: fixed;
 }
 
 .smoke-container, .smoke-container-2, .smoke-container-3{
@@ -47,10 +48,9 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 63vw;
-    /*border: solid red 2px;*/
     position: absolute;
     display: block;
-    top: 22vh;
+    top: 17.5vh;
     width: 80vw;
     height: 30vh;
 }
@@ -70,7 +70,7 @@ header{
 .banner-content{
     color: var(--navFontColor);
     position: absolute;
-    top: 4vh;
+    top: 2vh;
     left: 50vw;
     transform: translate(-50%);
     text-align: center;

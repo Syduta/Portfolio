@@ -50,7 +50,7 @@ header{
     background-position: 63vw;
     position: absolute;
     display: block;
-    top: 17.5vh;
+    top: 16.5vh;
     width: 80vw;
     height: 30vh;
 }
@@ -70,7 +70,7 @@ header{
 .banner-content{
     color: var(--navFontColor);
     position: absolute;
-    top: 2vh;
+    top: 1vh;
     left: 50vw;
     transform: translate(-50%);
     text-align: center;

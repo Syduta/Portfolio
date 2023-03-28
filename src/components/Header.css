@@ -84,3 +84,9 @@ header{
     border: solid 2px var(--navFontColor);
     border-radius: 1.25rem;
 }
+
+@media only screen and (min-width: 1920px) {
+    .banner-content{
+        top: 7vh;
+    }
+}

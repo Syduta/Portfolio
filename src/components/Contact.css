@@ -84,3 +84,13 @@ form{
 .footer img{
     margin-left: 1rem;
 }
+
+@media only screen and (min-width: 1920px){
+    #contact h3{
+        margin-top: -6vh;
+    }
+
+    .form-container{
+        margin-top: -20vh;
+    }
+}

@@ -76,6 +76,10 @@
     color: var(--navFontColor);
 }
 
+.description a:hover{
+    color: deepskyblue;
+}
+
 .competences{
     font-family: "mars", "Roboto","sans-serif";
     position: relative;
@@ -185,7 +189,19 @@
     }
 
     .description p, .competences p{
-        font-size: 1.67em;
+        font-size: 1.60em;
+    }
+
+    .competences li{
+        font-size: 1.50em;
+    }
+
+    .fullstack{
+        font-size: 1.50em;
+    }
+
+    .emphase{
+        font-size: 1.2em;
     }
 
 

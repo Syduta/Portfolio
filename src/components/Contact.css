@@ -1,5 +1,5 @@
 #contact{
-    height: 90vh;
+    height: 75vh;
     background-color: var(--navFontColor);
     position: relative;
     display: flex;
@@ -83,6 +83,16 @@ form{
 
 .footer img{
     margin-left: 1rem;
+}
+
+@media only screen and (min-width: 1440px){
+    #contact h3{
+        margin-top: -6vh;
+    }
+
+    .form-container{
+        margin-top: -8vh;
+    }
 }
 
 @media only screen and (min-width: 1920px){

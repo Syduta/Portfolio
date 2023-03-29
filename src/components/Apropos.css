@@ -183,6 +183,27 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+@media only screen and (min-width: 1440px){
+    #apropos h3{
+        top: 20%;
+    }
+    .description p, .competences p{
+        font-size: 1.2em;
+    }
+
+    .competences li{
+        font-size: 1.1em;
+    }
+
+    .fullstack{
+        font-size: 1.05em;
+    }
+
+    .emphase{
+        font-size: 1em;
+    }
+}
+
 @media only screen and (min-width: 1920px){
     #apropos h3{
         top: 22%;
@@ -203,6 +224,4 @@
     .emphase{
         font-size: 1.2em;
     }
-
-
 }

@@ -1,5 +1,5 @@
 #contact{
-    height: 75vh;
+    height: 100vh;
     background-color: var(--navFontColor);
     position: relative;
     display: flex;
@@ -85,9 +85,17 @@ form{
     margin-left: 1rem;
 }
 
+@media only screen and (min-width: 1025px){
+
+}
+
 @media only screen and (min-width: 1440px){
     #contact h3{
         margin-top: -6vh;
+    }
+
+    #contact p{
+        margin-top: 11vh;
     }
 
     .form-container{
@@ -97,10 +105,14 @@ form{
 
 @media only screen and (min-width: 1920px){
     #contact h3{
-        margin-top: -6vh;
+        margin-top: 1vh;
+    }
+
+    #contact p{
+        margin-top: 13vh;
     }
 
     .form-container{
-        margin-top: -20vh;
+        margin-top: -8vh;
     }
 }

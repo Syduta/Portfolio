@@ -127,7 +127,6 @@
     vertical-align: -0.3em;
 }
 
-
 .container{
     display: flex;
     width: 30%;
@@ -164,7 +163,6 @@
     height: 100%;
     width: 100%;
     transition: transform 500ms ease;
-
 }
 
 .photo{
@@ -182,43 +180,11 @@
     transform: translate(-50%);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-@media only screen and (min-width: 1024px){
+
+@media screen and (aspect-ratio: 16/9){
     #apropos h3{
-        top: 15%;
-        color: var(--navFontColor);
+        top: 17vh;
     }
-
-    .competences, .description{
-        width: 24vw;
-    }
-}
-
-@media only screen and (min-width: 1440px){
-    #apropos h3{
-        top: 20%;
-    }
-    .description p, .competences p{
-        font-size: 1.2em;
-    }
-
-    .competences li{
-        font-size: 1.1em;
-    }
-
-    .fullstack{
-        font-size: 1.05em;
-    }
-
-    .emphase{
-        font-size: 1em;
-    }
-}
-
-@media only screen and (min-width: 1920px){
-    #apropos h3{
-        top: 22%;
-    }
-
     .description p, .competences p{
         font-size: 1.60em;
     }
@@ -233,5 +199,28 @@
 
     .emphase{
         font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1024px){
+    #apropos h3{
+        color: var(--navFontColor);
+        top: 2vh;
+    }
+    .description,.competences {
+        width: 62vw;
+        height: 27vh;
+        margin: 0 1vw;
+        padding: 0 1vw;
+    }
+    .description{
+        top: -5vh;
+    }
+    .competences{
+        top: 12vh;
+        left: 36vw;
+    }
+    .side-container{
+        flex-wrap: wrap;
     }
 }

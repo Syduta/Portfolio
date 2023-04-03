@@ -85,30 +85,17 @@ header{
     border-radius: 1.25rem;
 }
 
-@media only screen and (min-width: 1024px){
+@media screen and (aspect-ratio: 16/9){
     .banner-content{
         top: 7vh;
     }
 }
 
-@media only screen and (min-width: 1440px){
+@media only screen and (min-device-width: 800px) and (max-device-width: 1024px){
     .banner-content{
-        top: 5vh;
+        top: 7.5vh;
     }
-    #banner{
-        background-position: bottom;
-    }
-
     .smoke-container, .smoke-container-2, .smoke-container-3{
-        top: 11.5%;
-    }
-}
-@media only screen and (min-width: 1920px){
-    .banner-content{
-        top: 3vh;
-    }
-
-    .smoke-container, .smoke-container-2, .smoke-container-3{
-        top: 10%;
+        left: 10vh;
     }
 }

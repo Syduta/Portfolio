@@ -85,25 +85,7 @@ form{
     margin-left: 1rem;
 }
 
-@media only screen and (min-width: 1025px){
-
-}
-
-@media only screen and (min-width: 1440px){
-    #contact h3{
-        margin-top: -6vh;
-    }
-
-    #contact p{
-        margin-top: 11vh;
-    }
-
-    .form-container{
-        margin-top: -8vh;
-    }
-}
-
-@media only screen and (min-width: 1920px){
+@media screen and (aspect-ratio: 16/9){
     #contact h3{
         margin-top: 1vh;
     }

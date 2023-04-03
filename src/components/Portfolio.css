@@ -112,26 +112,3 @@ figcaption h4, figcaption p{
     background-color: var(--navColor);
     opacity: 80%;
 }
-@media only screen and (min-width: 1024px){
-    .projet{
-        width: 30%;
-    }
-    .maquette{
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 1440px){
-    .projet{
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: var(--navColor);
-        border-radius: 20px;
-    }
-}
-
-@media only screen and (min-width: 1920px){
-    #portfolio h3{
-        margin-top: 6vh;
-    }
-}

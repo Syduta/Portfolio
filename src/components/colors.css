@@ -1,9 +1,4 @@
 :root{
     --navColor: #24211C;
     --navFontColor: #D9D9D9;
-
 }
-
-/*
-<div key={index} style={{transform:`rotate(${(360/logos.length)*index}deg translate(175%)`}}></div>
-*/

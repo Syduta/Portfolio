@@ -49,12 +49,6 @@ const Portfolio = () => {
     const [showImage, setShowImage] = useState(false);
     const [activeImage, setActiveImage] = useState(-1);
 
-    const handleShowImage = (e) => {
-        setShowImage(prevState => !prevState);
-        console.log(`you have clicked X:${e.screenX} Y:${e.screenY}`)
-            window.location="#portfolio";
-    };
-
     return(
         <>
             <section id={"portfolio"}>
@@ -71,7 +65,10 @@ const Portfolio = () => {
                                      onMouseLeave={() => {
                                          setShowCaption(false);
                                      }}
-                                     onClick={ handleShowImage }
+                                     onClick={() =>{
+                                         setActiveImage(index);
+                                         setShowImage(prevState => !prevState);
+                                     }}
                                 >
                                     <figcaption>{index === activeImage && showCaption &&
                                         <div>

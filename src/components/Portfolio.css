@@ -127,4 +127,26 @@ figcaption h4, figcaption p{
         height: 50vh;
     }
 
+    figcaption{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 699px){
+    #portfolio h3{
+        top: -4vh;
+    }
+
+    .projet{
+        width: 85vw;
+    }
+
+    .maquette{
+        width: 100vw;
+        height: 185vh;
+    }
+
+    figcaption{
+        width: 100%;
+    }
 }

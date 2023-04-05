@@ -229,27 +229,48 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 699px){
+    #apropos{
+        height: 200vh;
+    }
+
     #apropos h3{
         color: var(--navFontColor);
         top: 2vh;
     }
     .description,.competences {
-        width: 62vw;
-        height: 27vh;
+        width: 90vw;
+        height: 55vh;
         margin: 0 1vw;
         padding: 0 1vw;
     }
     .description{
-        top: -5vh;
+        top: -14vh;
     }
     .competences{
-        top: 11vh;
-        left: 36vw;
+        top: 16vh;
+        left: 8vw;
     }
     .side-container{
         flex-wrap: wrap;
     }
     .counter-spin-3{
         color: var(--navColor);
+    }
+
+    .photo{
+        height: 125px;
+        width: 125px;
+        top: 50%;
+    }
+
+    .menu-item{
+        height: 75%;
+        width: 75%;
+        left: 10%;
+        top: 15%;
+    }
+
+    .counter-spin-3, .counter-spin-8{
+        color: var(--navFontColor);
     }
 }

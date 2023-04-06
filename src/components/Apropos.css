@@ -228,6 +228,12 @@
     }
 }
 
+@media only screen and (min-device-width: 1280px) and (max-width: 1439px){
+    #apropos h3{
+        color: var(--navFontColor);
+    }
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 699px){
     #apropos{
         height: 200vh;

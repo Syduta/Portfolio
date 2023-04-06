@@ -16,9 +16,9 @@ const Contact = () => {
                     <ContactForm />
                     <p>ou sur </p>
                     <div>
-                        <a href={"https://www.linkedin.com/in/thibaulttouzin/"} target={"_blank"} rel="noreferrer" >{fontAwesomeLinkedin}</a>
-                        <a href={"https://github.com/Syduta"} target={"_blank"} rel="noreferrer" >{fontAwesomeGithub}</a>
-                        <a href={"https://discordapp.com/users/634639038766383105/"} target={"_blank"} rel="noreferrer" >{fontAwesomeDiscord}</a>
+                        <a href={"https://www.linkedin.com/in/thibaulttouzin/"} target={"_blank"} rel="noopener,noreferrer" >{fontAwesomeLinkedin}</a>
+                        <a href={"https://github.com/Syduta"} target={"_blank"} rel="noopener,noreferrer" >{fontAwesomeGithub}</a>
+                        <a href={"https://discordapp.com/users/634639038766383105/"} target={"_blank"} rel="noopener,noreferrer" >{fontAwesomeDiscord}</a>
                     </div>
                 </div>
             </section>

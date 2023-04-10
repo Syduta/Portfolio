@@ -1,5 +1,6 @@
 {
   "name": "bigshow",
+  "homepage": "https://www.thibault-touzin.fr/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -252,12 +252,12 @@
     }
     .description,.competences {
         width: 90vw;
-        height: 55vh;
+        height: 65vh;
         margin: 0 1vw;
         padding: 0 1vw;
     }
     .description{
-        top: -14vh;
+        top: -11vh;
     }
     .competences{
         top: 16vh;

@@ -204,6 +204,26 @@
     }
 }
 
+@media only screen and (min-device-width: 1440px){
+    #apropos h3{
+        top: 17vh;
+    }
+    .description p, .competences p{
+        font-size: 1.60em;
+    }
+    .competences li{
+        font-size: 1.50em;
+    }
+    .fullstack{
+        font-size: 1.50em;
+    }
+    .emphase{
+        font-size: 1.2em;
+    }
+    .description, .competences{
+        padding: 0 1rem;
+    }
+}
 
 @media only screen and (min-device-width: 1280px) and (max-width: 1439px){
     #apropos h3{

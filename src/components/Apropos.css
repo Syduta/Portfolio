@@ -204,7 +204,7 @@
     }
 }
 
-@media only screen and (min-device-width: 1440px) and (max-width: 1980px){
+@media only screen and (min-device-width: 1900px){
     #apropos h3{
         top: 17vh;
     }

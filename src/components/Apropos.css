@@ -241,7 +241,7 @@
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 699px){
+@media only screen and (min-device-width: 321px) and (max-device-width: 699px){
     #apropos{
         height: 200vh;
     }
@@ -288,7 +288,7 @@
     }
 }
 
-@media only screen and (max-device-width: 319px){
+@media only screen and (max-device-width: 320px){
     #apropos{
         height: 200vh;
     }
@@ -307,7 +307,7 @@
         overflow: scroll;
     }
     .description{
-        top: -11vh;
+        top: -9vh;
     }
     .competences{
         top: 16vh;

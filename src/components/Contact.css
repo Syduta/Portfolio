@@ -118,7 +118,7 @@ form{
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 699px){
+@media only screen and (min-device-width: 321px) and (max-device-width: 699px){
     #contact{
         height: 80vh;
     }
@@ -137,9 +137,9 @@ form{
     }
 }
 
-@media only screen and (max-device-width: 319px){
+@media only screen and (max-device-width: 320px){
     #contact{
-        height: 75vh;
+        height: 90vh;
     }
     #contact h3{
         top: 4vh;

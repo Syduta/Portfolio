@@ -150,3 +150,23 @@ figcaption h4, figcaption p{
         width: 100%;
     }
 }
+
+@media only screen and (max-device-width: 319px){
+    #portfolio h3{
+        top: -4vh;
+    }
+
+    .projet{
+        width: 100vw;
+        margin: 4vh 0;
+    }
+
+    .maquette{
+        width: 100vw;
+        height: 185vh;
+    }
+
+    figcaption{
+        width: 100%;
+    }
+}

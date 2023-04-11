@@ -136,3 +136,22 @@ form{
         width: 66vw;
     }
 }
+
+@media only screen and (max-device-width: 319px){
+    #contact{
+        height: 70vh;
+    }
+    #contact h3{
+        top: 4vh;
+    }
+
+    .form-container{
+        margin: 0;
+        position: absolute;
+        top: 10vh;
+    }
+
+    input[type=text], input[type=email], textarea{
+        width: 66vw;
+    }
+}

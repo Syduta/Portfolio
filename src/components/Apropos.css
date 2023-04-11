@@ -287,3 +287,53 @@
         color: var(--navFontColor);
     }
 }
+
+@media only screen and (max-device-width: 319px){
+    #apropos{
+        height: 200vh;
+    }
+
+    #apropos h3{
+        color: var(--navFontColor);
+        top: 2vh;
+        width: 100%;
+        text-align: center;
+    }
+    .description,.competences {
+        width: 90vw;
+        height: 65vh;
+        margin: 0 1vw;
+        padding: 0 1vw;
+        overflow: scroll;
+    }
+    .description{
+        top: -11vh;
+    }
+    .competences{
+        top: 16vh;
+        left: 8vw;
+    }
+    .side-container{
+        flex-wrap: wrap;
+    }
+    .counter-spin-3{
+        color: var(--navColor);
+    }
+
+    .photo{
+        height: 125px;
+        width: 125px;
+        top: 50%;
+    }
+
+    .menu-item{
+        height: 75%;
+        width: 75%;
+        left: 10%;
+        top: 15%;
+    }
+
+    .counter-spin-3, .counter-spin-8{
+        color: var(--navFontColor);
+    }
+}

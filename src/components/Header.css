@@ -216,3 +216,18 @@ header{
         left: 9vh;
     }
 }
+
+@media only screen and (max-device-width: 319px){
+    .desktop-nav{
+        display: none;
+    }
+    .banner-content{
+        font-size: 1rem;
+        top: 4vh;
+        width: 98%;
+        margin: 0;
+    }
+    .smoke-container, .smoke-container-2, .smoke-container-3{
+        display: none;
+    }
+}

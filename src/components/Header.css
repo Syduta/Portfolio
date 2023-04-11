@@ -191,19 +191,6 @@ header{
     }
 }
 
-@media only screen and (min-device-width: 331px) and (max-device-width: 580px){
-    .desktop-nav{
-        display: none;
-    }
-    .banner-content{
-        font-size: 1rem;
-        top: 4vh;
-    }
-    .smoke-container, .smoke-container-2, .smoke-container-3{
-        display: none;
-    }
-}
-
 @media only screen and (min-device-width: 581px) and (max-device-width: 699px){
     .desktop-nav{
         display: none;
@@ -217,7 +204,21 @@ header{
     }
 }
 
-@media only screen and (max-device-width: 330px){
+
+@media only screen and (min-device-width: 332px) and (max-device-width: 580px){
+    .desktop-nav{
+        display: none;
+    }
+    .banner-content{
+        font-size: 1rem;
+        top: 4vh;
+    }
+    .smoke-container, .smoke-container-2, .smoke-container-3{
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 331px){
     .desktop-nav{
         display: none;
     }

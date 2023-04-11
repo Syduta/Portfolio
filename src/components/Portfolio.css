@@ -132,7 +132,7 @@ figcaption h4, figcaption p{
     }
 }
 
-@media only screen and (min-device-width: 331px) and (max-device-width: 699px){
+@media only screen and (min-device-width: 332px) and (max-device-width: 699px){
     #portfolio h3{
         top: -4vh;
     }
@@ -151,7 +151,7 @@ figcaption h4, figcaption p{
     }
 }
 
-@media only screen and (max-device-width: 330px){
+@media only screen and (max-device-width: 331px){
     #portfolio h3{
         top: -4vh;
     }

@@ -253,15 +253,16 @@
     .description,.competences {
         width: 90vw;
         height: 65vh;
-        margin: 0 1vw;
-        padding: 0 1vw;
+        overflow: scroll;
     }
     .description{
-        top: -11vh;
+        top: -9vh;
+        margin: 0 4vw;
     }
     .competences{
-        top: 16vh;
+        top: 17vh;
         left: 8vw;
+        margin-right:  15vw;
     }
     .side-container{
         flex-wrap: wrap;
@@ -335,10 +336,5 @@
 
     .counter-spin-3, .counter-spin-8{
         color: var(--navFontColor);
-    }
-}
-
-@media only screen and (max-device-width: 200px){
-    #apropos .side-container{
     }
 }

@@ -337,3 +337,8 @@
         color: var(--navFontColor);
     }
 }
+
+@media only screen and (max-device-width: 200px){
+    #apropos .side-container{
+    }
+}

@@ -231,3 +231,23 @@ header{
         display: none;
     }
 }
+
+@media only screen and (max-device-width: 200px){
+    .desktop-nav{
+        display: none;
+    }
+
+    .nav-li{
+       font-size: 1rem;
+        margin-left: 20vw;
+    }
+    .banner-content{
+        font-size: 1rem;
+        top: 4vh;
+        width: 98%;
+        margin: 0;
+    }
+    .smoke-container, .smoke-container-2, .smoke-container-3{
+        display: none;
+    }
+}

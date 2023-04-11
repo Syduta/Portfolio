@@ -241,7 +241,7 @@
     }
 }
 
-@media only screen and (min-device-width: 321px) and (max-device-width: 699px){
+@media only screen and (min-device-width: 331px) and (max-device-width: 699px){
     #apropos{
         height: 200vh;
     }
@@ -289,7 +289,7 @@
     }
 }
 
-@media only screen and (max-device-width: 320px){
+@media only screen and (max-device-width: 330px){
     #apropos{
         height: 200vh;
     }

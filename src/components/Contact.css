@@ -75,27 +75,27 @@ form{
 .footer{
     background-color: var(--navColor);
     color: var(--navFontColor);
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    text-align: center;
     padding: 1rem;
 }
 
 .footer img{
-    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.social-container{
+    text-align: center;
+    background-color: var(--navFontColor);
+    padding: 2rem;
+}
+
+.social-container svg{
+    padding: 1rem;
 }
 
 @media screen and (min-device-width: 1537px){
     #contact{
         height: 75vh;
-    }
-
-    #contact h3{
-        margin-top: 1vh;
-    }
-
-    #contact p{
-        margin-top: 5vh;
     }
 
     input[type=text], input[type=email], textarea{
@@ -105,7 +105,48 @@ form{
 
 }
 
-@media only screen and (min-device-width: 700px) and (max-device-width: 1024px){
+@media only screen and (min-device-width: 700px) and (max-device-width: 1536px){
+    #contact{
+        height: 75vh;
+    }
+    #contact h3{
+        top: 4vh;
+    }
+
+    .form-container{
+        margin: 0;
+        position: absolute;
+        top: 10vh;
+    }
+
+    input[type=text], input[type=email], textarea{
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-device-width: 332px) and (max-device-width: 699px){
+    #contact{
+        height: 60vh;
+    }
+    #contact h3{
+        top: 4vh;
+    }
+
+    .form-container{
+        margin: 0;
+        position: absolute;
+        top: 10vh;
+    }
+
+    input[type=text], input[type=email], textarea{
+        width: 60vw;
+    }
+    textarea{
+        height: 25vh;
+    }
+}
+
+@media only screen and (max-device-width: 332px){
     #contact{
         height: 60vh;
     }
@@ -122,42 +163,8 @@ form{
     input[type=text], input[type=email], textarea{
         width: 66vw;
     }
-}
 
-@media only screen and (min-device-width: 332px) and (max-device-width: 699px){
-    #contact{
-        height: 80vh;
-    }
-    #contact h3{
-        top: 4vh;
-    }
-
-    .form-container{
-        margin: 0;
-        position: absolute;
-        top: 10vh;
-    }
-
-    input[type=text], input[type=email], textarea{
-        width: 66vw;
-    }
-}
-
-@media only screen and (max-device-width: 331px){
-    #contact{
-        height: 90vh;
-    }
-    #contact h3{
-        top: 4vh;
-    }
-
-    .form-container{
-        margin: 0;
-        position: absolute;
-        top: 10vh;
-    }
-
-    input[type=text], input[type=email], textarea{
-        width: 66vw;
+    textarea{
+        height: 25vh;
     }
 }

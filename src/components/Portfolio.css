@@ -113,6 +113,16 @@ figcaption h4, figcaption p{
     opacity: 80%;
 }
 
+@media screen and (min-device-width: 1537px){
+    .projet{
+        width: 25vw;
+    }
+
+    .maquette{
+        width: 100%;
+    }
+}
+
 @media only screen and (min-device-width: 700px) and (max-device-width: 1024px){
     #portfolio h3{
         top: -4vh;

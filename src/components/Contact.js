@@ -14,14 +14,14 @@ const Contact = () => {
                 <div className={"form-container"}>
                     <p>Je suis joignable par mail,</p>
                     <ContactForm />
-                    <p>ou sur </p>
-                    <div>
-                        <a href={"https://www.linkedin.com/in/thibaulttouzin/"} target={"_blank"} rel="noreferrer" >{fontAwesomeLinkedin}</a>
-                        <a href={"https://github.com/Syduta"} target={"_blank"} rel="noreferrer" >{fontAwesomeGithub}</a>
-                        <a href={"https://discordapp.com/users/634639038766383105/"} target={"_blank"} rel="noreferrer" >{fontAwesomeDiscord}</a>
-                    </div>
                 </div>
             </section>
+            <div className={"social-container"}>
+                <p>ou sur </p>
+                <a href={"https://www.linkedin.com/in/thibaulttouzin/"} target={"_blank"} rel="noreferrer" >{fontAwesomeLinkedin}</a>
+                <a href={"https://github.com/Syduta"} target={"_blank"} rel="noreferrer" >{fontAwesomeGithub}</a>
+                <a href={"https://discordapp.com/users/634639038766383105/"} target={"_blank"} rel="noreferrer" >{fontAwesomeDiscord}</a>
+            </div>
             <Footer />
         </>
     )

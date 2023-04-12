@@ -64,12 +64,6 @@
     list-style-type:'- ';
 }
 
-.description{
-    font-family: "mars", "Roboto","sans-serif";
-    position: relative;
-    top: 10vh;
-}
-
 .description a{
     font-family: "mars", "Roboto","sans-serif";
     text-transform: uppercase;
@@ -80,15 +74,10 @@
     color: deepskyblue;
 }
 
-.competences{
-    font-family: "mars", "Roboto","sans-serif";
-    position: relative;
-    top: 10vh;
-}
 
 .competences, .description{
     width: 30vw;
-    height: 70vh;
+    height: 65vh;
     text-align: justify;
     display: flex;
     flex-direction: column;
@@ -99,6 +88,9 @@
     font-weight: lighter;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 1.25rem;
+    font-family: "mars", "Roboto","sans-serif";
+    position: relative;
+    top: 10vh;
 }
 
 .side-container{
@@ -184,24 +176,12 @@
     #apropos h3{
         top: 17vh;
     }
-    .description p, .competences p{
-        font-size: 2.1em;
-    }
 
-    .competences li{
-        font-size: 2em;
-    }
-
-    .fullstack{
-        font-size: 2em;
-    }
-
-    .emphase{
-        font-size: 1.25em;
-    }
     .description, .competences{
         padding: 4rem 1rem;
         overflow: scroll;
+        display: flex;
+        align-items: center;
     }
 }
 

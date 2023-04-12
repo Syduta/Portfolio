@@ -180,54 +180,48 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-@media screen and (aspect-ratio: 16/9){
+@media screen and (min-device-width: 1440px){
     #apropos h3{
         top: 17vh;
     }
     .description p, .competences p{
-        font-size: 1.60em;
+        font-size: 2.1em;
     }
 
     .competences li{
-        font-size: 1.50em;
+        font-size: 2em;
     }
 
     .fullstack{
-        font-size: 1.50em;
+        font-size: 2em;
     }
 
     .emphase{
-        font-size: 1.2em;
+        font-size: 1.25em;
     }
     .description, .competences{
-        padding: 0 1rem;
+        padding: 4rem 1rem;
+        overflow: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1440px){
-    #apropos h3{
-        top: 20vh;
-    }
-    .description p, .competences p{
-        font-size: 1.40em;
-    }
-    .competences li{
-        font-size: 1.30em;
-    }
-    .fullstack{
-        font-size: 1.30em;
-    }
-    .emphase{
-        font-size: 1em;
-    }
-    .description, .competences{
-        padding: 0 1rem;
-    }
-}
 
-@media only screen and (min-device-width: 1280px) and (max-width: 1439px){
+
+@media only screen and (max-device-width: 1439px) and (min-width: 1280px){
     #apropos h3{
         color: var(--navFontColor);
+    }
+    .description p, .competences p{
+        font-size: 1.30em;
+    }
+    .competences li{
+        font-size: 1.20em;
+    }
+    .fullstack{
+        font-size: 1.20em;
+    }
+    .emphase{
+        font-size: 0.9em;
     }
 
     .description, .competences{

@@ -19,8 +19,8 @@ const Apropos = () => {
                     <div className={"competences"}>
                         <p>Toutes ces <em>technos</em> qui me font tourner la tête sont celles avec lesquelles
                             je travaille.</p>
-                        <p>Laisser moi maintenant vous présenter un certain nombre des
-                            <em className={"emphase"}> compétences </em>que je souhaiterai mettre à votre service.</p>
+                        <p>Laissez moi maintenant vous présenter un certain nombre des
+                            <em className={"emphase"}> compétences </em>que je souhaiterais mettre à votre service.</p>
                         <ul><span className={"fullstack"}>Front-end</span>
                             <li>Le maquetage.</li>
                             <li>La création d'une interface statique et adaptable.</li>

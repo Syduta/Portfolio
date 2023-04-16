@@ -180,3 +180,18 @@ figcaption h4, figcaption p{
         width: 100%;
     }
 }
+
+@media screen and (orientation:landscape){
+    #portfolio{
+        height: 400vh;
+    }
+    #portfolio h3{
+        top: 5vh;
+    }
+    .projet{
+        height: 55vh;
+    }
+    .maquette{
+        height: 100%;
+    }
+}

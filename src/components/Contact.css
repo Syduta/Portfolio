@@ -168,3 +168,11 @@ form{
         height: 25vh;
     }
 }
+@media screen and (orientation:landscape){
+    .form-container, p{
+        margin-top: 10vh;
+    }
+    .social-container, p{
+        margin-top: 10vh;
+    }
+}

@@ -334,3 +334,18 @@
         color: var(--navFontColor);
     }
 }
+
+@media screen and (orientation:landscape){
+    #apropos{
+        height: 400vh;
+    }
+    #apropos h3{
+        top: 25vh;
+    }
+    .description, .competences{
+        height: 25%;
+    }
+    .competences{
+        top: 40vh;
+    }
+}

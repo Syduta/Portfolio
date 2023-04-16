@@ -243,3 +243,18 @@ header{
         display: none;
     }
 }
+
+@media screen and (orientation:landscape) {
+    .desktop-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    .nav-li a{
+        margin-right: 24vw;
+    }
+    #banner{
+        height: 200vh;
+    }
+}

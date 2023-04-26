@@ -80,7 +80,7 @@ const CircularMenu = () => {
                     }
                 </div>
             </div>
-            <div className={`photo ${isOpen ? "" : "float"}`} onClick={handleSetIsOpen}></div>
+            <div className={`photo ${isOpen ? "" : "move"}`} onClick={handleSetIsOpen}></div>
         </>
     )
 }

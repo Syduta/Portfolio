@@ -1,6 +1,7 @@
-@keyframes floating {
-    0%, 100% { transform: translate(-50%, -5%); }
-    50% { transform: translate(-50%, 0); }
+
+@keyframes moving{
+    0%, 100% { transform: translateX(-50%); }
+    50% { transform: translateX(-30%); }
 }
 
 @keyframes spin-right {

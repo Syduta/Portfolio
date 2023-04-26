@@ -1,5 +1,6 @@
-.float{
-    animation: floating 3s -1s infinite;
+
+.move{
+    animation: moving 1s -1s infinite;
 }
 
 .spin{

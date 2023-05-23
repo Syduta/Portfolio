@@ -162,6 +162,10 @@
     border-radius: 45%;
 }
 
+.bubble p{
+    margin: auto;
+}
+
 .bubble:after{
     position: absolute;
     top: 100%;
@@ -207,6 +211,11 @@
     .description, .competences{
         height: 45vh;
         top: 5%;
+    }
+
+    .photo{
+        left: 46%;
+        top: 46%;
     }
 }
 
@@ -262,8 +271,16 @@
         flex-wrap: wrap;
     }
 
+    .bubble{
+        top: 43%;
+    }
+    .bubble:after{
+        top: 100%;
+    }
+
     .photo{
-        top: 47%;
+        top: 48%;
+        left: 37%;
     }
     .counter-spin-3{
         color: var(--navColor);
@@ -304,7 +321,13 @@
     .photo{
         height: 125px;
         width: 125px;
-        top: 50%;
+        top: 49%;
+        left: 35%;
+    }
+
+    .bubble{
+        top: 42%;
+        left: 30%;
     }
 
     .menu-item{

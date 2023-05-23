@@ -203,7 +203,19 @@
     border: solid 3px var(--navFontColor);
 }
 
-@media screen and (min-device-width: 1537px){
+@media screen and (min-device-width: 2001px){
+    .photo{
+        left: 46%;
+        top: 46%;
+    }
+
+    .bubble{
+        top: 39%;
+        left: 45%;
+    }
+}
+
+@media screen and (min-device-width: 1537px) and (max-device-width: 2000px){
     #apropos h3{
         top: 17vh;
     }
@@ -213,13 +225,17 @@
         top: 5%;
     }
 
+    .bubble{
+        top: 37%;
+    }
+
     .photo{
-        left: 46%;
-        top: 46%;
+        left: 44%;
+        top: 45%;
     }
 }
 
-@media only screen and (min-width: 1280px) and (max-device-width: 1439px){
+@media only screen and (min-width: 1280px) and (max-device-width: 1536px){
     #apropos h3{
         color: var(--navFontColor);
     }
@@ -239,6 +255,15 @@
     .description, .competences{
         padding: 1rem;
         margin: 0;
+    }
+
+    .photo{
+        top: 46%;
+        left: 43%;
+    }
+
+    .bubble{
+        top: 37%;
     }
 }
 
@@ -279,8 +304,12 @@
     }
 
     .photo{
-        top: 48%;
-        left: 37%;
+        top: 47%;
+        left: 40%;
+    }
+
+    .bubble{
+        top: 40%;
     }
     .counter-spin-3{
         color: var(--navColor);
@@ -321,12 +350,12 @@
     .photo{
         height: 125px;
         width: 125px;
-        top: 49%;
+        top: 50%;
         left: 35%;
     }
 
     .bubble{
-        top: 42%;
+        top: 45%;
         left: 30%;
     }
 
@@ -377,6 +406,12 @@
         height: 125px;
         width: 125px;
         top: 50%;
+        left: 31%;
+    }
+
+    .bubble{
+        top: 46%;
+        left: 25%;
     }
 
     .menu-item{

@@ -46,6 +46,14 @@
     background-image: url("../img/screen1.png");
 }
 
+.ruchesse{
+    background-image: url("../img/screen7.png");
+}
+
+.maquette-ruche{
+    background-image: url("../img/ruchesse.png");
+}
+
 .newworld{
     background-image: url("../img/screen2.png");
 }

@@ -80,6 +80,7 @@ const CircularMenu = () => {
                     }
                 </div>
             </div>
+            <div className={`bubble ${isOpen ? "hidden" : ""}`}><p>Cliquez moi !</p></div>
             <div className={`photo ${isOpen ? "" : "move"}`} onClick={handleSetIsOpen}></div>
         </>
     )

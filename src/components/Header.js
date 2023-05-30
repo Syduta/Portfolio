@@ -1,4 +1,5 @@
-import logo from "../img/logo.png";
+import logo from "../img/logo.webp";
+import CV from "../img/CV_Thibault_Touzin.pdf";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import React, {useState} from "react";
@@ -37,6 +38,7 @@ const Header = () => {
                         <li className={"nav-li"}><a href={"#apropos"}>À propos</a></li>
                         <li className={"nav-li"}><a href={"#portfolio"}>Portfolio</a></li>
                         <li className={"nav-li"}><a href={"#contact"}>Contact</a></li>
+                        <li className={"nav-li"}><a href={CV} target={"_blank"} rel="noopener noreferrer" download>Mon CV</a></li>
                     </ul>
                 </nav>
                 <nav className={"mobile-nav"}>
@@ -52,6 +54,7 @@ const Header = () => {
                         <li className={"nav-li"}><a href={"#apropos"}>À propos</a></li>
                         <li className={"nav-li"}><a href={"#portfolio"}>Portfolio</a></li>
                         <li className={"nav-li"}><a href={"#contact"}>Contact</a></li>
+                        <li className={"nav-li"}><a href={CV} target={"_blank"} rel="noopener noreferrer" download>Mon CV</a></li>
                     </ul>
                 </div>
             </header>

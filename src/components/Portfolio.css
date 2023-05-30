@@ -1,7 +1,7 @@
 
 #portfolio{
     min-height: 100vh;
-    background-image: url("../img/background-portfolio.jpg");
+    background-image: url("../img/background-portfolio.webp");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -43,55 +43,55 @@
 }
 
 .underground{
-    background-image: url("../img/screen1.png");
+    background-image: url("../img/screen1.webp");
 }
 
 .ruchesse{
-    background-image: url("../img/screen7.png");
+    background-image: url("../img/screen7.webp");
 }
 
 .maquette-ruche{
-    background-image: url("../img/ruchesse.png");
+    background-image: url("../img/ruchesse.webp");
 }
 
 .newworld{
-    background-image: url("../img/screen2.png");
+    background-image: url("../img/screen2.webp");
 }
 
 .maquette-nw{
-    background-image: url("../img/new-world.png");
+    background-image: url("../img/new-world.webp");
 }
 
 .maquette-underground{
-    background-image: url("../img/the-underground.png");
+    background-image: url("../img/the-underground.webp");
 }
 
 .peps{
-    background-image: url("../img/screen3.png");
+    background-image: url("../img/screen3.webp");
 }
 
 .maquette-peps{
-    background-image: url("../img/peps.png");
+    background-image: url("../img/peps.webp");
 }
 
 .reno{
-    background-image: url("../img/screen4.png");
+    background-image: url("../img/screen4.webp");
 }
 
 .maquette-reno{
-    background-image: url("../img/reno.png");
+    background-image: url("../img/reno.webp");
 }
 
 .wow{
-    background-image: url("../img/screen5.png");
+    background-image: url("../img/screen5.webp");
 }
 
 .travel{
-    background-image: url("../img/screen6.png");
+    background-image: url("../img/screen6.webp");
 }
 
 .maquette-travel{
-    background-image: url("../img/travel.png");
+    background-image: url("../img/travel.webp");
 }
 
 .maquette{
@@ -106,7 +106,7 @@
 }
 
 .maquette-wow{
-    background-image: url("../img/wow.png");
+    background-image: url("../img/wow.webp");
 }
 
 figcaption{

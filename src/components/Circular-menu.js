@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faSquareJs, faNodeJs, faReact, faPhp, faSymfony, faBootstrap, faSass } from '@fortawesome/free-brands-svg-icons';
-import mysql from "../img/mysql.png";
+import mysql from "../img/mysql.webp";
 import {useState} from "react";
 
 const fontAwesomeHtml5 = <FontAwesomeIcon icon={faHtml5} color={"#e34f26"} fontSize={"1em"}/>;

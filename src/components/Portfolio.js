@@ -2,6 +2,13 @@ import {useState} from "react";
 
 const projets = [
     {
+        nom: "Le Dressing d'AS",
+        technos: "Html - Css - Bootstrap",
+        classe: "dressing",
+        maquette: "maquette maquette-dressing",
+        description: "Projet réalisé pour le plaisir."
+    },
+    {
         nom: "Ruchesse",
         technos: "Html - Css - Bootstrap",
         classe: "ruchesse",
